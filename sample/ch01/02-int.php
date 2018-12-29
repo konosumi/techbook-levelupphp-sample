@@ -24,3 +24,7 @@ $max = PHP_INT_MAX;
 $min = PHP_INT_MIN;
 var_dump($max); // int(9223372036854775807)
 var_dump($min); // int(-9223372036854775808)
+
+// 整数の範囲を超えるとどうなるのか
+$over = PHP_INT_MAX + 100;
+var_dump($over); // float(9.2233720368548E+18)
