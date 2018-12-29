@@ -1,2 +1,11 @@
-# techbook-levelupphp-sample
-レベルアップPHP 〜言語を理解して中級者へ〜
+# レベルアップPHP 〜言語を理解して中級者へ〜
+
+「レベルアップPHP 〜言語を理解して中級者へ〜」のサンプルコードレポジトリです。
+
+入門書などを使って構築したPHP環境をそのままお使いください。コマンドラインのPHP実行で動作します。
+
+## Usage
+
+```sh
+php sample/ch02/01-basic-declaration.php
+```
