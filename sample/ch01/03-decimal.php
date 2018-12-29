@@ -9,3 +9,9 @@ $c = 3E-2;  // Eは小文字も大文字も可能(3×10の-2乗)
 var_dump($a); // float(1.123)
 var_dump($b); // float(110)
 var_dump($c); // float(0.03)
+
+// 小数の誤判定
+$d = 1.1;
+$e = 2.2;
+$f = $d + $e;
+var_dump($f == 3.3); // bool(false)
