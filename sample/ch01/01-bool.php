@@ -1,6 +1,6 @@
 <?php
 
-// 論議型の基本形です
+// 論理型の基本形です
 $a = true;
 $b = false;
 echo gettype($a).PHP_EOL; // boolean
