@@ -9,9 +9,9 @@ echo gettype($b).PHP_EOL; // integer
 echo gettype($c).PHP_EOL; // integer
 
 // 10進数以外での表現も可能
+$a2  = 0b111;   // 2進数
 $a8  = 0125;    // 8進数 
 $a16 = 0x3A;    // 16進数
-$a2  = 0b111;   // 2進数
+var_dump($a2);  // int(7)
 var_dump($a8);  // int(85)
 var_dump($a16); // int(58)
-var_dump($a2);  // int(7)
