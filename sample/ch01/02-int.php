@@ -27,6 +27,7 @@ var_dump($max); // int(9223372036854775807)
 var_dump($min); // int(-9223372036854775808)
 
 // 整数の範囲を超えると桁あふれ(オーバーフロー)現象がおきる
+// 浮動小数点数(float)型に変換され、10の18乗のような表記で表現されます
 $overMax = PHP_INT_MAX + 100;
 var_dump($overMax); // float(9.2233720368548E+18)
 $overMin = PHP_INT_MIN - 100;
