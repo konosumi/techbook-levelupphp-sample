@@ -20,7 +20,7 @@ var_dump($a8);  // int(85)
 var_dump($a16); // int(58)
 
 // 整数がとりえる範囲(最大値と最小値)は、定数から取得できる
-// (PHP7.0)PHP_INT_MIN
+// PHP_INT_MINは、PHP7.0で追加されました
 $max = PHP_INT_MAX;
 $min = PHP_INT_MIN;
 var_dump($max); // int(9223372036854775807)
