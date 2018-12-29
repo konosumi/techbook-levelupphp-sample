@@ -24,4 +24,3 @@ $max = PHP_INT_MAX;
 $min = PHP_INT_MIN;
 var_dump($max); // int(9223372036854775807)
 var_dump($min); // int(-9223372036854775808)
-
