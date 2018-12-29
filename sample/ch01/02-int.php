@@ -18,3 +18,8 @@ $a16 = 0x3A;    // 16進数
 var_dump($a2);  // int(7)
 var_dump($a8);  // int(85)
 var_dump($a16); // int(58)
+
+// 整数がとり得る最大値と最小値は定数で定義されている
+var_dump(PHP_INT_MAX); // int(9223372036854775807)
+var_dump(PHP_INT_MIN); // int(-9223372036854775808)
+
