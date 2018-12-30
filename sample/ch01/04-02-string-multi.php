@@ -29,6 +29,6 @@ echo $d. PHP_EOL; // 1 あ イ
 $e = 'あいう';
 echo mb_detect_encoding($e, 'auto'). PHP_EOL; // UTF-8
 
-// 想定される文字コードを列挙する
-$detectOrder = "UTF-8, ASCII, EUC-JP, SJIS, eucJP-win, SJIS-win, ISO-2022-JP";
+// 想定される文字コードを予め列挙することで、検出精度を高める
+$detectOrder = "UTF-8, EUC-JP, SJIS, eucJP-win, SJIS-win";
 echo mb_detect_encoding($e, $detectOrder). PHP_EOL; // UTF-8
