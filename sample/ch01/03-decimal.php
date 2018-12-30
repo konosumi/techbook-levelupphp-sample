@@ -15,8 +15,8 @@ var_dump($c); // float(-0.03)
 $d = 1.1;
 $e = 2.2;
 $f = $d + $e;
-var_dump($f == 3.3); // bool(false)
+var_dump($f === 3.3); // bool(false)
 
 // 7.9999999999999991118になるため、比較が一致しない
 $g = (0.1 + 0.7) * 10;
-var_dump($g == 8.0); // bool(false)
+var_dump($g === 8.0); // bool(false)
