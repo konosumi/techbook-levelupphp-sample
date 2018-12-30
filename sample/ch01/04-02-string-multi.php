@@ -28,3 +28,7 @@ echo $d. PHP_EOL; // 1 あ イ
 // mb_detect_encodingによる文字コードの検出
 $e = 'あいう';
 echo mb_detect_encoding($e). PHP_EOL; // UTF-8
+
+// 検出率を上げるために、検出順を設定する第二引数が存在する
+$order = "UTF-8, ASCII, EUC-JP, SJIS, eucJP-win, SJIS-win, ISO-2022-JP";
+echo mb_detect_encoding($e, $order). PHP_EOL; // UTF-8
