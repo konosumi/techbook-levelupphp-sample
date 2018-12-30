@@ -17,5 +17,5 @@ echo gettype($a).PHP_EOL; // string
 $d = '';
 for ($i = 1; $i < 2147483647; $i++) {
     $d .= 'a';
-    echo 'len:' . strlen($d) . ', memory:' . memory_get_usage() . PHP_EOL;
+    echo 'len:'. strlen($d). ' memory:'. memory_get_usage(). PHP_EOL;
 }
