@@ -14,3 +14,9 @@ for ($i = 0; $i < $count; $i++) {
     // int(1) int(2) int(4) NULL
     var_dump($mixArray[$i]);
 }
+
+// foreachを使えばすべて取得できる
+foreach ($mixArray as $key => $val) {
+    // 0 => 1, 1 => 2, fruits => apple, 2 => 4
+    echo $key. ' => '. $val.PHP_EOL;
+}
