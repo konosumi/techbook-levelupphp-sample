@@ -30,5 +30,11 @@ $e = 'あいう';
 echo mb_detect_encoding($e, 'auto'). PHP_EOL; // UTF-8
 
 // 想定される文字コードを優先度順に列挙することで、検出精度を高める
-$detectOrder = "UTF-8, EUC-JP, SJIS, eucJP-win, SJIS-win";
+$detectOrder = "ASCII,JIS,UTF-8,EUC-JP,SJIS";
 echo mb_detect_encoding($e, $detectOrder). PHP_EOL; // UTF-8
+
+// 文字コードの変換
+$f = mb_convert_encoding('あいう', 'SJIS', 'UTF-8');
+echo $f. PHP_EOL; // ??????(SJISになったので文字化けしてしまった)
+$detectOrder = "ASCII,JIS,UTF-8,EUC-JP,SJIS";
+echo mb_detect_encoding($f, $detectOrder). PHP_EOL; // SJIS
