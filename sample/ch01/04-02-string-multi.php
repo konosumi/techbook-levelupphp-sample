@@ -39,5 +39,5 @@ echo $f. PHP_EOL; // ??????(SJISになったので文字化けしてしまった
 $detectOrder = "ASCII,JIS,UTF-8,EUC-JP,SJIS";
 echo mb_detect_encoding($f, $detectOrder). PHP_EOL; // SJIS
 
-// 内部エンコーディングの取得
-echo mb_internal_encoding(). PHP_EOL;
+// 内部手なの文字コード設定の取得
+echo mb_internal_encoding(). PHP_EOL; //UTF-8
