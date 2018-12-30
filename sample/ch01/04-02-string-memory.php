@@ -3,7 +3,7 @@
  * メモリーのオーバーフロー
  */
 
-// 長すぎる文字列ではメモリーが足りない
+// 長すぎる文字列ではメモリーが不足する
 // Fatal error: Allowed memory size of 134217728 bytes
 // exhausted (tried to allocate 2147483679 bytes)
 //$c = str_repeat('a', 2147483647);
