@@ -26,3 +26,4 @@ for ($i = 1; $i < 2147483647; $i++) {
     // len:130023300 memory:130376552
     echo 'len:'. strlen($d). ' memory:'. memory_get_usage(). PHP_EOL;
 }
+
