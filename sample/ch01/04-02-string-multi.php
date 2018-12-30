@@ -12,6 +12,7 @@ echo 'strlen:'. strlen($b). PHP_EOL; // strlen:9
 // マルチバイトを加味した文字数の判定
 echo 'mb_strlen:'. mb_strlen($b). PHP_EOL; // mb_strlen:3
 
+// mb_convert_kanaによる文字列の変換
 // K「半角カタカナ」を「全角カタカナ」に変換します。 
 // a「全角」英数字を「半角」に変換します。 
 // s「全角」スペースを「半角」に変換します。 
