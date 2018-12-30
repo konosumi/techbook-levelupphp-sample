@@ -13,7 +13,7 @@ echo gettype($a).PHP_EOL; // string
 // exhausted (tried to allocate 2147483679 bytes)
 //$c = str_repeat('a', 2147483647);
 
-// 文字列が長くなると、メモリー使用量も増えていく
+// 文字列が長くなるにつれ、メモリー使用量も増えていく
 $d = '';
 for ($i = 1; $i < 2147483647; $i++) {
     $d .= 'a';
