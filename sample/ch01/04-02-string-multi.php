@@ -24,3 +24,7 @@ $c = "１　あ　ｲ";
 $d = mb_convert_kana($c, 'Kas');
 echo $c. PHP_EOL; // １　あ　ｲ
 echo $d. PHP_EOL; // 1 あ イ
+
+// mb_detect_encodingによる文字コードの推定
+$e = 'あいう';
+echo mb_detect_encoding($e). PHP_EOL; // UTF-8
