@@ -1,6 +1,6 @@
 <?php
 /**
- * 連想配列の結合
+ * 連想配列の結合方法による違い
  */
 $array3 = ['fruits' => 'apple', 'code' => 'php'];
 $array4 = ['fruits' => 'oprange', 'drink' => 'beer'];

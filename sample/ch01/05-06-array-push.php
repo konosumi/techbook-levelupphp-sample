@@ -3,7 +3,7 @@
  * 配列の要素の追加
  */
 
-// array_pushを使う方法
+// array_push()を使う方法
 $array = [1, 2];
 array_push($array, 3);
 
