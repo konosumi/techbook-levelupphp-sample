@@ -5,7 +5,7 @@
 
 // 整数型の基本形
 $a = 3;   // 正の整数
-$b = 0;   // ゼロ
+$b = 0;   // ゼロ
 $c = -10; // 負の整数
 echo gettype($a).PHP_EOL; // integer
 
@@ -17,11 +17,11 @@ var_dump($a8);  // int(10)
 $a16 = 0x1A;    // 16進数(先頭に0x)
 var_dump($a16); // int(26)
 
-// 整数の範囲(最大値と最小値)は、定数から取得できる
+// 整数の最大値
 $max = PHP_INT_MAX;
 var_dump($max); // int(9223372036854775807)
-// (PHP7.0)PHP_INT_MIN
-$min = PHP_INT_MIN;
+// 整数の最小値
+$min = PHP_INT_MIN; // (PHP7.0)
 var_dump($min); // int(-9223372036854775808)
 
 // 整数の範囲を超えると桁あふれ(オーバーフロー)現象がおきる
@@ -33,4 +33,4 @@ var_dump($overMin); // float(-9.2233720368548E+18)
 // 桁あふれの環境下では正確な判定ができない
 $over100 = PHP_INT_MAX + 100;
 $over101 = PHP_INT_MAX + 101;
-var_dump($over100 == $over101); // bool(true)
+var_dump($over100 === $over101); // bool(true)
