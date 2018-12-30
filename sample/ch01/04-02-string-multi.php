@@ -33,7 +33,7 @@ echo mb_detect_encoding($e, 'auto'). PHP_EOL; // UTF-8
 $detectOrder = "ASCII,JIS,UTF-8,EUC-JP,SJIS";
 echo mb_detect_encoding($e, $detectOrder). PHP_EOL; // UTF-8
 
-// 文字コードの変換
+// UTF-8からSJISへの文字コード変換
 $f = mb_convert_encoding('あいう', 'SJIS', 'UTF-8');
 echo $f. PHP_EOL; // ??????(SJISになったので文字化けしてしまった)
 $detectOrder = "ASCII,JIS,UTF-8,EUC-JP,SJIS";
