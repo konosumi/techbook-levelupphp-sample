@@ -11,4 +11,11 @@ echo gettype($a).PHP_EOL; // string
 // 長すぎる文字列ではメモリーが足りない
 // Fatal error: Allowed memory size of 134217728 bytes
 // exhausted (tried to allocate 2147483679 bytes)
-$c = str_repeat('a', 2147483647);
+//$c = str_repeat('a', 2147483647);
+
+// 文字列が長くなると、メモリー使用量も増えていく
+$d = '';
+for ($i = 1; $i < 2147483647; $i++) {
+    $d .= 'a';
+    echo 'len:' . strlen($d) . ', memory:' . memory_get_usage() . PHP_EOL;
+}
