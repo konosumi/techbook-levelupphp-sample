@@ -3,9 +3,9 @@
  * 文字列型
  */
 
-// ASCII文字列と日本語のマルチバイト文字列は長さが異なる
-$a = 'abc';   // ASCII文字列
-$b = 'あいう'; // 日本語のマルチバイト文字列
+// 半角のASCII文字列と、全角の日本語マルチバイト文字列は長さが異なる
+$a = 'abc';   // 半角のASCII文字列
+$b = 'あいう'; // 全角の日本語マルチバイト文字列
 echo 'strlen:'. strlen($a). PHP_EOL; // strlen:3
 echo 'strlen:'. strlen($b). PHP_EOL; // strlen:9
 
@@ -29,6 +29,6 @@ echo $d. PHP_EOL; // 1 あ イ
 $e = 'あいう';
 echo mb_detect_encoding($e, 'auto'). PHP_EOL; // UTF-8
 
-// 想定される文字コードを予め列挙することで、検出精度を高める
+// 想定される文字コードを優先度順に列挙することで、検出精度を高める
 $detectOrder = "UTF-8, EUC-JP, SJIS, eucJP-win, SJIS-win";
 echo mb_detect_encoding($e, $detectOrder). PHP_EOL; // UTF-8
