@@ -21,7 +21,7 @@ foreach ($a as $val) {
 // ジェネレーターでyieldを使ってみる
 function yieldtest() {
     for ($i = 1; $i < 3; $i++) {
-        // 1回yieldする度に、関数呼び出し側のループが1つ進む
+        // yieldする毎に、関数呼び出し側のループが1つ進む
         yield $i;
         echo 'yield sareta!'.PHP_EOL;
     }
