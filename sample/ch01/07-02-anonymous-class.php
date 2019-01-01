@@ -2,25 +2,25 @@
 /**
  * (PHP7.0)無名クラス
  */
-class BaseBatchController
+class BaseController
 {
     public function __construct()
     {
-        echo 'BaseBatchController __construct()'.PHP_EOL;
+        echo 'BaseController __construct()'.PHP_EOL;
     }
 
     public function run()
     {
-        echo 'BaseBatchController run()'.PHP_EOL;
+        echo 'BaseController run()'.PHP_EOL;
     }
 }
 
 /**
- * 無名クラスによる即席バッチコントローラー(基盤クラスを継承しています)
- * BaseBatchController __construct()
+ * 無名クラスによる即席コントローラー(基盤クラスを継承しています)
+ * BaseController __construct()
  * AnonymousController __construct()
  */
-$controller = new class extends BaseBatchController
+$controller = new class extends BaseController
 {
     public function __construct()
     {
@@ -35,7 +35,7 @@ $controller = new class extends BaseBatchController
     }
 };
 
-// BaseBatchController run()
+// BaseController run()
 // AnonymousController run()
 $controller->run();
 
