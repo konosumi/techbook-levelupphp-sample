@@ -2,15 +2,12 @@
 /**
  * (PHP7.0)無名クラス
  */
-class BaseController
-{
-    public function __construct()
-    {
+class BaseController {
+    public function __construct() {
         echo 'BaseController __construct()'.PHP_EOL;
     }
 
-    public function run()
-    {
+    public function run() {
         echo 'BaseController run()'.PHP_EOL;
     }
 }
@@ -20,16 +17,13 @@ class BaseController
  * BaseController __construct()
  * AnonymousController __construct()
  */
-$controller = new class extends BaseController
-{
-    public function __construct()
-    {
+$controller = new class extends BaseController {
+    public function __construct() {
         parent::__construct();
         echo 'AnonymousController __construct()'.PHP_EOL;
     }
 
-    public function run()
-    {
+    public function run() {
         parent::run();
         echo 'AnonymousController run()'.PHP_EOL;
     }
