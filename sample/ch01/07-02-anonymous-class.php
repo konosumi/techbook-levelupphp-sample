@@ -33,9 +33,6 @@ $controller = new class extends BaseController {
 // AnonymousController run()
 $controller->run();
 
-// 無名クラスのインスタンスもオブジェクトである
-var_dump(is_object($controller)); // bool(true)
-
 // オブジェクトのクラス名を取得すると、とても長い名前が返却されます
 // class@anonymous/[省略]anonymous-class.php0x103fe72e9
 echo get_class($controller).PHP_EOL;
