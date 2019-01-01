@@ -46,6 +46,7 @@ class MyIterator implements Iterator {
 }
 
 $it = new MyIterator;
+var_dump(is_iterable($it)); // bool(true)
 foreach($it as $key => $value) {
     echo $key. ' => '. $value. PHP_EOL;
 }
