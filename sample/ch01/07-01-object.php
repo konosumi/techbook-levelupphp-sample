@@ -26,6 +26,7 @@ $noname = new class {
         echo 'test echo.'. PHP_EOL;
     }
 };
+
 $noname->testecho();
 // new class instance!
 // test echo.
