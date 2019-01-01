@@ -49,6 +49,7 @@ $it = new MyIterator;
 foreach($it as $key => $value) {
     echo $key. ' => '. $value. PHP_EOL;
 }
+
 /**
  * 以下のように出力される
  * string(18) "MyIterator::rewind"
