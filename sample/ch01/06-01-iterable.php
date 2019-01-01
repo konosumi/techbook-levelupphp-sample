@@ -51,7 +51,7 @@ class MyIterator implements Iterator {
     }
 }
 
-// イテレータの利用
+// Iteratorの利用
 $it = new MyIterator;
 var_dump(is_iterable($it)); // bool(true)
 foreach($it as $key => $value) {
