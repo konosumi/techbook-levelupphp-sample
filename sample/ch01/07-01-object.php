@@ -15,3 +15,17 @@ $instance3 = new stdClass();
 var_dump(is_object($instance1)); // bool(true)
 var_dump(is_object($instance2)); // bool(true)
 var_dump(is_object($instance3)); // bool(true)
+
+// (PHP7.0)無名クラスの利用
+$noname = new class {
+    function __construct() {
+        echo 'new class instance!'. PHP_EOL;
+    }
+
+    function testecho() {
+        echo 'test echo.'. PHP_EOL;
+    }
+};
+$noname->testecho();
+// new class instance!
+// test echo.
