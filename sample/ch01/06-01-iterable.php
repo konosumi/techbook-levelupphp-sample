@@ -11,6 +11,7 @@ var_dump(is_iterable(1));  // bool(false)
 var_dump(is_iterable(new stdClass()));  // bool(false)
 
 // イテレータ
+// implementsで、インターフェースの実装を宣言しています
 class MyIterator implements Iterator {
     private $position = 0;
     private $array = ["first", "second"];  
