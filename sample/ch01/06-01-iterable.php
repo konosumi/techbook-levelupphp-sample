@@ -19,26 +19,31 @@ class MyIterator implements Iterator {
         $this->position = 0;
     }
 
+    // 位置を巻き戻す
     public function rewind() {
         var_dump(__METHOD__);
         $this->position = 0;
     }
 
+    // 現在の要素を取得する
     public function current() {
         var_dump(__METHOD__);
         return $this->array[$this->position];
     }
 
+    // 現在のキーを取得する
     public function key() {
         var_dump(__METHOD__);
         return $this->position;
     }
 
+    // 位置を次に進める
     public function next() {
         var_dump(__METHOD__);
         ++$this->position;
     }
 
+    // 値を取得できる位置にいるかどうか
     public function valid() {
         var_dump(__METHOD__);
         return isset($this->array[$this->position]);
