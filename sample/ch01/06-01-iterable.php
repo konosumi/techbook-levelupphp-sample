@@ -84,9 +84,9 @@ function yieldtest() {
 }
 
 foreach (yieldtest() as $val) {
-    // yield:1
-    // yield sareta!
-    // yield:2
-    // yield sareta!
     echo 'yield:'.$val.PHP_EOL;
 }
+// yield:1
+// yield sareta!
+// yield:2
+// yield sareta!
