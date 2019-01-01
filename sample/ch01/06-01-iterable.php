@@ -10,13 +10,60 @@ var_dump(is_iterable((function () { yield 1; })()));  // bool(true)
 var_dump(is_iterable(1));  // bool(false)
 var_dump(is_iterable(new stdClass()));  // bool(false)
 
-// ArrayIteratorを使ってみる
-$a = new ArrayIterator([1, 2]);
-foreach ($a as $val) {
-    // ArrayIterator:1
-    // ArrayIterator:2
-    echo 'ArrayIterator:'.$val.PHP_EOL;
+// イテレータ
+class MyIterator implements Iterator {
+    private $position = 0;
+    private $array = ["first", "second"];  
+
+    public function __construct() {
+        $this->position = 0;
+    }
+
+    public function rewind() {
+        var_dump(__METHOD__);
+        $this->position = 0;
+    }
+
+    public function current() {
+        var_dump(__METHOD__);
+        return $this->array[$this->position];
+    }
+
+    public function key() {
+        var_dump(__METHOD__);
+        return $this->position;
+    }
+
+    public function next() {
+        var_dump(__METHOD__);
+        ++$this->position;
+    }
+
+    public function valid() {
+        var_dump(__METHOD__);
+        return isset($this->array[$this->position]);
+    }
 }
+
+$it = new MyIterator;
+foreach($it as $key => $value) {
+    echo $key. ' => '. $value. PHP_EOL;
+}
+/**
+ * 以下のように出力される
+ * string(18) "MyIterator::rewind"
+ * string(17) "MyIterator::valid"
+ * string(19) "MyIterator::current"
+ * string(15) "MyIterator::key"
+ * 0 => first
+ * string(16) "MyIterator::next"
+ * string(17) "MyIterator::valid"
+ * string(19) "MyIterator::current"
+ * string(15) "MyIterator::key"
+ * 1 => second
+ * string(16) "MyIterator::next"
+ * string(17) "MyIterator::valid"
+ */
 
 // ジェネレーターでyieldを使ってみる
 function yieldtest() {
