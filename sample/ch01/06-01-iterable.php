@@ -83,10 +83,10 @@ function yieldtest() {
     }
 }
 
-foreach (yieldtest() as $val) {
-    echo 'yield:'.$val.PHP_EOL;
-}
 // yield:1
 // yield sareta!
 // yield:2
 // yield sareta!
+foreach (yieldtest() as $val) {
+    echo 'yield:'.$val.PHP_EOL;
+}
