@@ -33,17 +33,13 @@ var_dump(array_key_exists('null', $c)); // bool(false)
 // 未定義変数かどうかを検査する
 error_reporting(E_ALL);
 
-// (is_null) Notice: Undefined variable: z
 if (is_null($z)) {
+    // Notice: Undefined variable: z
     echo ' 変数は値を持ちません'. PHP_EOL;
 }
-
-// (isset) 警告は発生しない
 if (!isset($z)) {
     echo '変数は未定義であるか、値を持ちません'. PHP_EOL;
 }
-
-// (empty) 警告は発生しない
 if (empty($z)) {
     echo '変数は未定義であるか、値を持たないか...'. PHP_EOL;
 }
