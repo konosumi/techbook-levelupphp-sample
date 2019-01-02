@@ -47,4 +47,3 @@ function curl_access($url) {
 curl_access("https://www.impressrd.jp/");
 // Curl http error: 404
 curl_access("https://www.impressrd.jp/abcde");
- 
