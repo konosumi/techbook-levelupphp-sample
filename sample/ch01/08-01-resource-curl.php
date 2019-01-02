@@ -2,12 +2,7 @@
 /**
  * cURL接続によるHTTPクライアント 
  */
- 
-// Curl success: <!DOCTYPE html PUBLIC "-//W3C/
-curl_access("https://www.impressrd.jp/");
-// Curl http error: 404
-curl_access("https://www.impressrd.jp/abcde");
- 
+
 function curl_access($url) {
     // cURLセッションを初期化する
     $ch = curl_init();
@@ -47,3 +42,9 @@ function curl_access($url) {
     // cURLセッションを閉じる(終了する)
     curl_close($ch);
 }
+ 
+// Curl success: <!DOCTYPE html PUBLIC "-//W3C/
+curl_access("https://www.impressrd.jp/");
+// Curl http error: 404
+curl_access("https://www.impressrd.jp/abcde");
+ 
