@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
-# Perlの数値配列(@)
+# Perl5の数値配列(@)
 my @array = (1, 2);
 
-# Perlの連想配列(%)
+# Perl5の連想配列(%)
 my %hash = ("fruits" => "apple", "code" => "php");
