@@ -46,4 +46,4 @@ if (!isset($z)) {
 // (empty) 警告は発生しない
 if (empty($z)) {
     echo '変数は未定義であるか、値を持たないか...'. PHP_EOL;
-};
+}
