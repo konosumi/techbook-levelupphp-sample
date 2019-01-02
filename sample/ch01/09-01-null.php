@@ -25,6 +25,3 @@ unset($c['null']);
 // (未定義) isset()はfalseで配列にキーもない
 var_dump(isset($c['null'])); // bool(false)
 var_dump(array_key_exists('null', $c)); // bool(false)
-
-
-
