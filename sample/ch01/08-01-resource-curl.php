@@ -1,6 +1,6 @@
 <?php
 /**
- * リソース(cURL接続)
+ * cURL接続によるHTTPクライアント 
  */
  
 // Curl success: <!DOCTYPE html PUBLIC "-//W3C/
