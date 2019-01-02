@@ -10,6 +10,10 @@ if (!$fp) {
     exit;
 }
 
+// リソースであるかどうか
+var_dump(is_resource($fp)); // bool(true)
+var_dump(get_resource_type($fp)); // string(6) "stream"
+ 
 // HTTPの要求を書き込む
 $out = "GET / HTTP/1.1\r\n";
 $out .= "Host: www.example.com\r\n";
