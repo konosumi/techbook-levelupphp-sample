@@ -22,7 +22,7 @@ function curl_access($url) {
     $res = curl_exec($ch);
 
     // cURLのエラーの有無
-    if (CURLE_OK !== curl_errno($ch)) {
+    if (curl_errno($ch) !== CURLE_OK) {
         // cURLが失敗した
         echo 'Curl error: '. curl_error($ch). PHP_EOL;
         curl_close($ch);
