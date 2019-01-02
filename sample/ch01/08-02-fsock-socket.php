@@ -3,7 +3,7 @@
  * fsockopen()によるソケット接続
  */
 
-// ソケット接続を開始
+// ソケット接続を確立する
 $fp = fsockopen("www.example.com", 80, $errno, $errstr, 30);
 if (!$fp) {
     echo "$errstr ($errno)<br />\n";
