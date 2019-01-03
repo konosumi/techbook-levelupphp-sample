@@ -74,7 +74,7 @@ if ($name) {
 // またはこうなる
 $username = $name ? $name : '名前が空です';
 
-// if ($name)と同様の判定を行ない、$name、もしくはデフォルト値を返却します。
+// if ($name)と同様の判定を行ない、$name、またはデフォルト値を返却します
 $username = $name ?: '名前が空です';
 echo $username.PHP_EOL; // 名前が空です
 
