@@ -30,3 +30,11 @@ var_dump(is_callable([$obj, 'myfunc'])); // bool(true)
 // 無名関数は呼び出し可能な関数
 $anonymous = function() { return true; };
 var_dump(is_callable($anonymous));
+
+/**
+ * 無名関数の実体はobject型である
+ */
+$anonymous = function($test) { echo $test.PHP_EOL; };
+var_dump(gettype($anonymous)); // string(6) "object"
+$anonymous("abc"); //abc
+
