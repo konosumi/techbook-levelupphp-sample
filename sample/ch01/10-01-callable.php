@@ -23,6 +23,8 @@ var_dump(is_callable(['MyTest', 'mystafunc'])); // bool(true)
  * 通常のメソッドもtrueになる
  */
 var_dump(is_callable(['MyTest', 'myfunc'])); // bool(true)
+$obj = new MyTest();
+var_dump(is_callable([$obj, 'myfunc'])); // bool(true)
 
 // 無名関数は呼び出し可能な関数
 $anonymous = function() { return true; };
