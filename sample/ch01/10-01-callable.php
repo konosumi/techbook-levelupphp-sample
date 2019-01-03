@@ -16,7 +16,7 @@ var_dump(is_callable('myfunc')); // bool(true)
 // myfunc2は定義されていないので呼び出しできない
 var_dump(is_callable('myfunc2')); // bool(false)
 
-// MyTestクラスのmystafuncは呼び出し可能な静的(クラス)メソッド
+// MyTestのmystafuncは呼び出し可能な静的(クラス)メソッド
 var_dump(is_callable(['MyTest', 'mystafunc'])); // bool(true)
 /**
  * is_callable()は、関数としてコール可能な構造
