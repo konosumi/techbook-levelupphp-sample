@@ -4,6 +4,7 @@
  */
 
 // is_callable()による、呼び出し可能な関数かどうかの調査
+// 調査のために適当な関数とクラスを定義しておく
 function myfunc() {}
 class MyTest {
     static function mystafunc() {}
