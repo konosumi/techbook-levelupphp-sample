@@ -32,8 +32,11 @@ $anonymous = function() { return true; };
 var_dump(is_callable($anonymous));
 
 /**
- * 無名関数の型の実体調査
+ * 無名関数の実行と型の実体調査
  */
 $anonymous = function($test) { echo $test.PHP_EOL; };
 var_dump(gettype($anonymous)); // string(6) "object"
+
+// 無名関数の実行
 $anonymous("abc"); //abc
+call_user_func($anonymous, "abc"); //abc
