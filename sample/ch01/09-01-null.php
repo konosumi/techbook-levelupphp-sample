@@ -43,3 +43,19 @@ if (!isset($z)) {
 if (empty($z)) {
     echo '変数は未定義であるか、NULLであるか...'. PHP_EOL;
 }
+
+/**
+ * (PHP7.0)NULL合体演算子(??)
+ */
+// 普通に書くと
+if (isset($_GET['user'])) {
+    $username = $_GET['user'];
+} else {
+    $username = 'nobody';
+}
+// またはこうなる
+$username = isset($_GET['user']) ? $_GET['user'] : 'nobody';
+
+// Null合体演算子(??)は、isset()相当の判定を行ないます
+$username = $_GET['user'] ?? 'nobody';
+echo $username.PHP_EOL; // nobody
