@@ -59,3 +59,26 @@ $username = isset($_GET['user']) ? $_GET['user'] : 'nobody';
 // Null合体演算子(??)は、isset()相当の判定を行ないます
 $username = $_GET['user'] ?? 'nobody';
 echo $username.PHP_EOL; // nobody
+
+/**
+ * (PHP5.3)エルビス演算子(?:)
+ */
+$name = "";
+
+// 普通に書くと
+if ($name) {
+    $username = $name;
+} else {
+    $username = '名前が空です';
+}
+// またはこうなる
+$username = $name ? $name : '名前が空です';
+
+// if ($name)と同様の判定を行ない、$name、もしくはデフォルト値を返却します。
+$username = $name ?: '名前が空です';
+echo $username.PHP_EOL; // 名前が空です
+
+// エルビス演算子は、未定義の変数を参照すると警告が発生する
+error_reporting(E_ALL);
+// Notice: Undefined variable: undefname 
+echo ($undefname ?: '名前が空です').PHP_EOL; // 名前が空です
