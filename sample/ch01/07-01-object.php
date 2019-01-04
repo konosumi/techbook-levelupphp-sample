@@ -11,6 +11,7 @@ var_dump(is_object($instance1)); // bool(true)
 class MyTest {}
 $instance2 = new MyTest();
 var_dump(is_object($instance2)); // bool(true)
+
 // 3. 標準クラスのインスタンス
 $instance3 = new stdClass();
 var_dump(is_object($instance3)); // bool(true)
