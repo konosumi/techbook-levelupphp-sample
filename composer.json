@@ -1,0 +1,6 @@
+{
+    "require": {
+        "tnnsst35/naokihanzawa": "1.0.0",
+        "smarty/smarty": "^3.1"
+    }
+}
