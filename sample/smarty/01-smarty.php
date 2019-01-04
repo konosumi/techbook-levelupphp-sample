@@ -1,6 +1,6 @@
 <?php
 /**
- * テンプレートエンジンの活用
+ * テンプレートエンジンの実装サンプル
  */
 
 // 実用レベルでは、基盤・上流側の処理で予めrequireしておきます
@@ -11,7 +11,7 @@ require implode(DIRECTORY_SEPARATOR,
 // Smaryクラスを使います
 $smarty = new Smarty();
 
-// インジェクション対策
+// HTMLインジェクション対策
 // テンプレートで出力する変数を自動でHTMLエスケープします
 $smarty->escape_html = true;
 
@@ -27,5 +27,5 @@ $smarty->assign('demos', [
     '<script>alert(1);</script>'
 ]);
 
-// テンプレートを表示します(ブラウザに表示するHTMLに相当します)
+// テンプレートを表示します
 $smarty->display('index.tpl');
