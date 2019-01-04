@@ -70,3 +70,13 @@ echo mb_detect_encoding($g, $detectOrder). PHP_EOL; // SJIS
 
 /** PHPの内部的な文字コード設定の取得 **/
 echo mb_internal_encoding(). PHP_EOL; // UTF-8
+
+/** 改行コードを<br>タグに変換する **/
+// foo isn't <br />
+// bar
+echo nl2br("foo isn't \r\n bar").PHP_EOL;
+echo "----------".PHP_EOL;
+// foo isn't <br />
+// bar
+echo nl2br("foo isn't \n bar").PHP_EOL;
+
