@@ -19,7 +19,7 @@ $instance4 = new class {};
 var_dump(is_object($instance4)); // bool(true)
 
 
-// JSONをパースすると標準クラスになる
+/** JSONをパースすると標準クラスになる **/
 $json = '{
     "title": "example",
     "price": 1000,
