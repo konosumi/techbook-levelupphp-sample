@@ -8,7 +8,7 @@
 require implode(DIRECTORY_SEPARATOR,
     [__DIR__, '..', '..', 'vendor', 'autoload.php']);
 
-// Smaryクラスを使います
+// Smartyクラスを使います
 $smarty = new Smarty();
 
 // HTMLインジェクション対策
