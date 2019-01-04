@@ -17,20 +17,20 @@ error_reporting(E_ALL);
 // Notice: Undefined variable: c 
 var_dump(is_null($c)); // bool(true)
 
-// NULLと未定義で差が発生するケース
+/** NULLと未定義で差が発生するケース **/
 $c = [];
 
-// NULLでは、isset()はfalseだが配列にキーはある
+/** NULLでは、isset()はfalseだが配列にキーはある **/
 $c['null'] = null;
 var_dump(isset($c['null'])); // bool(false)
 var_dump(array_key_exists('null', $c)); // bool(true)
 
-// 未定義では、isset()はfalseで配列にキーもない
+/** 未定義では、isset()はfalseで配列にキーもない **/
 unset($c['null']);
 var_dump(isset($c['null'])); // bool(false)
 var_dump(array_key_exists('null', $c)); // bool(false)
 
-// 未定義変数かどうかを検査する
+/** 未定義変数かどうかを検査する **/
 error_reporting(E_ALL);
 
 if (is_null($z)) {
@@ -78,7 +78,7 @@ $username = $name ? $name : '名前が空です';
 $username = $name ?: '名前が空です';
 echo $username.PHP_EOL; // 名前が空です
 
-// エルビス演算子は、未定義の変数を参照すると警告が発生する
+/** エルビス演算子は、未定義の変数を参照すると警告が発生する **/
 error_reporting(E_ALL);
 // Notice: Undefined variable: undefname 
 echo ($undefname ?: '名前が空です').PHP_EOL; // 名前が空です
