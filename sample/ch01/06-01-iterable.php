@@ -74,7 +74,7 @@ foreach($it as $key => $value) {
  * string(17) "MyIterator::valid"
  */
 
-// ジェネレーターでyieldを使ってみる
+/** ジェネレーターでyieldを使ってみる **/
 function yieldtest() {
     for ($i = 1; $i < 3; $i++) {
         // yieldする毎に、関数呼び出し側のループが1つ進む
