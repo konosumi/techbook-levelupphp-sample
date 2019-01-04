@@ -37,6 +37,6 @@ var_dump(is_callable($anonymous));
 $anonymous = function($test) { echo $test.PHP_EOL; };
 var_dump(gettype($anonymous)); // string(6) "object"
 
-// 無名関数の実行
+/** 無名関数の実行 **/
 $anonymous("abc"); //abc
 call_user_func($anonymous, "abc"); //abc
