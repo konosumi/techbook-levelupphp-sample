@@ -5,7 +5,7 @@
  * 
  * cd sample/ch01/
  * php -S localhost:8000
- * http://localhost:8000/04-05-string-browser-entercode.php
+ * http://localhost:8000/04-02-string-browser-enter.php
  */
 
 // 送信されたテキストエリアにCR+LFがあるかどうか
