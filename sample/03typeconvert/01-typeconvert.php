@@ -39,3 +39,15 @@ switch ($b) {
         echo '0 is 0'.PHP_EOL;
         break;
 }
+
+/** in_array()における緩やかな比較と厳密な比較 **/
+$c = 0;
+
+// 緩やかな比較
+// bool(true)
+var_dump(in_array($c, ['0A', '1B', '2C']));
+
+// 厳密な比較
+// bool(false)
+var_dump(in_array($c, ['0A', '1B', '2C'], true));
+//}
