@@ -101,5 +101,9 @@ $foo = "10.0 pigs " + 1.0;      // $foo は float です (11)
 var_dump((string) true);  // string(1) "1"
 var_dump((string) false); // string(0) ""
 
-/** リソースを文字列に変換してみる] **/
-var_dump((string) imagecreate(110, 120)); // string(14) "Resource id #4"
+/** リソース型を変換してみる **/
+$resource = imagecreate(110, 120);
+var_dump((bool) $resource); // bool(true)
+var_dump((int) $resource); // int(4)
+var_dump((array) $resource); // array(1) { [0]=> resource(4) of type (gd) }
+var_dump((string) $resource); // string(14) "Resource id #4"
