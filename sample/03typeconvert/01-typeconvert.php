@@ -86,3 +86,13 @@ if ($d) {
 if (strlen($d) > 0) {
     echo "なんらかの文字が入力されています".PHP_EOL;
 }
+
+/** 文字列から数値への変換 **/
+$foo = 1 + "10.5";              // $foo は float です (11.5)
+$foo = 1 + "-1.3e3";            // $foo は float です (-1299)
+$foo = 1 + "bob-1.3e3";         // $foo は integer です (1)
+$foo = 1 + "bob3";              // $foo は integer です (1)
+$foo = 1 + "10 Small Pigs";     // $foo は integer です (11)
+$foo = 1 + "10 Little Piggies"; // $foo は integer です (11)
+$foo = "10.0 pigs " + 1;        // $foo は integer です (11)
+$foo = "10.0 pigs " + 1.0;      // $foo は float です (11)
