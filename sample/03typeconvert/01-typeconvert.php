@@ -96,3 +96,10 @@ $foo = 1 + "10 Small Pigs";     // $foo は integer です (11)
 $foo = 1 + "10 Little Piggies"; // $foo は integer です (11)
 $foo = "10.0 pigs " + 1;        // $foo は integer です (11)
 $foo = "10.0 pigs " + 1.0;      // $foo は float です (11)
+
+/** 論理型から文字列への変換 **/
+var_dump((string) true);  // string(1) "1"
+var_dump((string) false); // string(0) ""
+
+/** リソースを文字列に変換してみる] **/
+var_dump((string) imagecreate(110, 120)); // string(14) "Resource id #4"
