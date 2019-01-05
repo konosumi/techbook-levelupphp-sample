@@ -42,7 +42,7 @@ var_dump($object);
  * }
  */
 
-/** オブジェクトの判別 **/
+/** instanceofによるインスタンス(オブジェクト)の判別 **/
 class MyDateTime extends DateTime {}
 $a = new MyDateTime();
 var_dump($a instanceof MyDateTime); // bool(true)
