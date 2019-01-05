@@ -90,7 +90,9 @@ if (strlen($d) > 0) {
 /** 文字列から数値への変換 **/
 $foo = 1 + "10.5";              // $foo は float です (11.5)
 $foo = 1 + "-1.3e3";            // $foo は float です (-1299)
+// Warning: A non-numeric value encountered
 $foo = 1 + "bob-1.3e3";         // $foo は integer です (1)
+// Warning: A non-numeric value encountered
 $foo = 1 + "bob3";              // $foo は integer です (1)
 $foo = 1 + "10 Small Pigs";     // $foo は integer です (11)
 $foo = 1 + "10 Little Piggies"; // $foo は integer です (11)
