@@ -16,11 +16,11 @@ final class DateTime {
 }
 
 // どちらの書き方でも動きます
-// 1. 現在自分がいる名前空間で定義されているクラスを使う(相対)
+// 1. 現在自分がいる名前空間で定義されているクラスを使う(相対パス)
 $datetime = new DateTime();
 echo $datetime->example().PHP_EOL;
 
-// 2. 名前空間をはじめから記述する(絶対)
+// 2. 名前空間をはじめから記述する(絶対パス)
 $datetime = new \sample\ch05\DateTime();
 echo $datetime->example().PHP_EOL;
 
