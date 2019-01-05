@@ -103,6 +103,14 @@ $foo = "10.0 pigs " + 1.0;      // $foo は float です (11)
 var_dump((string) true);  // string(1) "1"
 var_dump((string) false); // string(0) ""
 
+/** 配列からオブジェクトへの変換 */
+$obj = (object) ['bar' => 'foo'];
+var_dump($obj->bar); // string(3) "foo"
+
+/** 配列以外のオブジェクトへの変換 */
+$obj = (object) 'ciao';
+echo $obj->scalar.PHP_EOL; // 'ciao' を出力します
+
 /** リソース型を変換してみる **/
 $resource = imagecreate(110, 120);
 var_dump((bool) $resource); // bool(true)
@@ -110,3 +118,4 @@ var_dump((int) $resource); // int(4)
 // array(1) { [0]=> resource(4) of type (gd) }
 var_dump((array) $resource);
 var_dump((string) $resource); // string(14) "Resource id #4"
+
