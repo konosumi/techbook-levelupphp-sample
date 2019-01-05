@@ -17,7 +17,7 @@ class SampleConst {
     ];
 
     /**
-     * PHP7.1以降では、クラス定数にアクセス権限を指定することができます
+     * PHP7.1以降では、クラス定数にアクセス権限を指定できます
      */
     public const PROGRAM = 'php';
     private const FRUITS = 'apple';
