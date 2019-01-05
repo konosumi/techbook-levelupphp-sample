@@ -19,7 +19,6 @@ var_dump(is_object($instance3)); // bool(true)
 $instance4 = new class {};
 var_dump(is_object($instance4)); // bool(true)
 
-
 /** JSONをパースすると標準クラスになる **/
 $json = '{
     "title": "example",
@@ -42,3 +41,10 @@ var_dump($object);
  *   }
  * }
  */
+
+/** オブジェクトの判別 **/
+class MyDateTime extends DateTime {}
+$a = new MyDateTime();
+var_dump($a instanceof MyDateTime); // bool(true)
+// 継承したサブクラスのインスタンスも有効
+var_dump($a instanceof DateTime); // bool(true)
