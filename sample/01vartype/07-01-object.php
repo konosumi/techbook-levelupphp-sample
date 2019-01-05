@@ -46,5 +46,6 @@ var_dump($object);
 class MyDateTime extends DateTime {}
 $a = new MyDateTime();
 var_dump($a instanceof MyDateTime); // bool(true)
+var_dump($a instanceof stdClass); // bool(false)
 // 継承したサブクラスのインスタンスも有効
 var_dump($a instanceof DateTime); // bool(true)
