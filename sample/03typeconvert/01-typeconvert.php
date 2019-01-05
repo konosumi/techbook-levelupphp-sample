@@ -74,3 +74,15 @@ $xml_string = <<<EOF
 <image />
 EOF;
 if (new SimpleXMLElement($xml_string)) { echo "TRUE!"; }
+
+/**  文字列のゼロ(0)の判定 **/
+$d = "0";
+
+// 普通に判定するとヒットしない
+if ($d) {
+    echo "ここには来ません".PHP_EOL;
+}
+// 文字列として考え、長さを判定すればヒットする
+if (strlen($d) > 0) {
+    echo "なんらかの文字が入力されています".PHP_EOL;
+}
