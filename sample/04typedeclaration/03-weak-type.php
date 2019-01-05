@@ -1,6 +1,6 @@
 <?php
 /**
- * 弱い型付け
+ * 弱い型付けでは、暗黙的型変換が起きる
  */
 final class SampleWeak
 {
