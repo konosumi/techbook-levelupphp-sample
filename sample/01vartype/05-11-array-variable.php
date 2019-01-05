@@ -12,4 +12,4 @@ function sum(...$numbers) {
     return $acc;
 }
 
-var_dump(sum(1, 2, 3, 4)); // int(10
+var_dump(sum(1, 2, 3, 4)); // int(10)
