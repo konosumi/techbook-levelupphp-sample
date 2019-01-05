@@ -44,12 +44,10 @@ switch ($b) {
 $c = 0;
 
 // 緩やかな比較
-// bool(true)
-var_dump(in_array($c, ['0A', '1B', '2C']));
+var_dump(in_array($c, ['0A', '1B', '2C'])); // bool(true)
 
 // 厳密な比較
-// bool(false)
-var_dump(in_array($c, ['0A', '1B', '2C'], true));
+var_dump(in_array($c, ['0A', '1B', '2C'], true)); // bool(false)
 //}
 
 /**
