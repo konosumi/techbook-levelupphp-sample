@@ -25,3 +25,17 @@ if ($a) {
 $a = 1;
 var_dump((bool) $a);   // bool(true)
 var_dump(boolval($a)); // bool(true)
+
+/** swtichで考える緩やかな比較問題 **/
+// 結果： 0 is A
+$b = 0;
+switch ($b) {
+    case 'A': 
+        // 「0 == A」なので、ここに来てしまう
+        echo '0 is A'.PHP_EOL;
+        break;
+    case 0: 
+        // 本来ならここに来て欲しい
+        echo '0 is 0'.PHP_EOL;
+        break;
+}
