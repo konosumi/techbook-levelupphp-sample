@@ -3,7 +3,7 @@
  * (PHP5.6)...による可変長引数リスト(配列)
  */
 
- // $numbersは引数の数によって増減する配列となる
+// $numbersは引数の数によって増減する配列となる
 function sum(...$numbers) {
     $acc = 0;
     foreach ($numbers as $n) {
