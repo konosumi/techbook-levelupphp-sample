@@ -116,4 +116,3 @@ var_dump((int) $resource); // int(4)
 // array(1) { [0]=> resource(4) of type (gd) }
 var_dump((array) $resource);
 var_dump((string) $resource); // string(14) "Resource id #4"
-
