@@ -1,9 +1,10 @@
 <?php
 /**
- * selfとstaticの違い(遅延的束縛)
+ * (PHP5.3)selfとstaticの違い(遅延的束縛)
  */
 class A {
     public static function who() {
+        // 定義した時点で、__CLASS__=自分自身(Aクラス)となる
         echo __CLASS__.PHP_EOL;
     }
     public static function test1() {
@@ -18,6 +19,7 @@ class A {
 }
 class B extends A {
     public static function who() {
+        // 定義した時点で、__CLASS__=自分自身(Bクラス)となる
         echo __CLASS__.PHP_EOL;
     }
 }
