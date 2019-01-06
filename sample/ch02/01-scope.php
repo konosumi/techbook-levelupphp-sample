@@ -23,6 +23,7 @@ echo PHP_EOL;
 $str = 'abcde';
 
 /** 定義済みの円周率定数を再定義してみる */
+ini_set('display_errors', 1);
 error_reporting(E_ALL);
 // Notice: Constant M_PI already defined 
 define('M_PI', 3.14);
