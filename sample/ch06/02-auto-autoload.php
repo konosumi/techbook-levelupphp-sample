@@ -4,7 +4,7 @@
  */
 spl_autoload_register(function ($classname) {
     $ds = DIRECTORY_SEPARATOR;
-    // 2階層上がプロジェクト直下です
+    // サンプルでは、2階層上がプロジェクト直下です
     $pjRootPath = realpath(__DIR__.$ds.'..'.$ds.'..');
 
     // sample\ch06\WelcomeAutoloadを分解してパスを組み立てます
