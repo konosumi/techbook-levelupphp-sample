@@ -24,7 +24,7 @@ class Base {
 
 // TaxiクラスはBaseを継承している
 class Taxi extends Base {
-    // PHPではクラスの多重継承はできないが、traitを使って拡張はできる
+    // PHPではクラスの多重継承はできないが、traitを使ったクラスの拡張はできる
     use transport1, transport2;
 }
 class Train extends Base {
@@ -32,8 +32,8 @@ class Train extends Base {
     use transport1, transport2;
 }
 
-// useで実装したtraitの関数は、
-// あたかもオブジェクト自身が持つ関数と同じように使える
+// useで拡張したtraitのメソッド郡は、
+// あたかもオブジェクト自身が持つ関数と同じように使用できる
 Taxi::test(); // test!
 $taxi = new Taxi();
 $taxi->canRide();
