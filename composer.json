@@ -2,8 +2,5 @@
     "require": {
         "tnnsst35/naokihanzawa": "1.0.0",
         "smarty/smarty": "^3.1"
-    },
-    "require-dev": {
-        "apigen/apigen": "^4.1"
     }
 }
