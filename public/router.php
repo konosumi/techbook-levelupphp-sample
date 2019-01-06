@@ -1,4 +1,7 @@
 <?php
+/**
+ * お手軽なルーティングエンジン
+ */
 // ルーティング設定
 $routerConfig = [
     '/phpinfo' => '/phpinfo'
