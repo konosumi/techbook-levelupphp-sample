@@ -19,15 +19,3 @@ use \sample\ch05\DateTime as Dtm;
 
 $datetime = new Dtm();
 echo $datetime->example().PHP_EOL;
-
-// おまけ：(PHP7)複数use
-// SEE: https://qiita.com/hnw/items/35dc3f54ec3358831cad
-/**
- * use Symfony\Component\Console\{
- *   Input\InputInterface,
- *   Input\InputArgument,
- *   Input\InputOption,
- *   Output\OutputInterface,
- *   Output\ConsoleOutputInterface
- *};
- */
