@@ -3,7 +3,6 @@
  * (PHP5.4)Traitによるクラスの拡張
  */
 
-// traitの定義
 trait transport1 {
     // 静的関数
     static function test() {
