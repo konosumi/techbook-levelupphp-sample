@@ -36,7 +36,7 @@ error_reporting(E_ALL);
 
 if (is_null($z)) {
     // Notice: Undefined variable: z
-    echo ' 変数はNULLです'. PHP_EOL;
+    echo '変数はNULLです'. PHP_EOL;
 }
 if (!isset($z)) {
     echo '変数は未定義であるか、NULLです'. PHP_EOL;
