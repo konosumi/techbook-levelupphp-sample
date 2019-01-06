@@ -12,7 +12,7 @@ function sampleFunction()
 
 // 名前空間の下で定数を定義する
 // constはクラスの中で定義するのが普通なので、推奨する書き方ではありません
-const SAMPLE_DEFINE = 'Sample function!'.PHP_EOL;
+const SAMPLE_DEFINE = 'Sample const!'.PHP_EOL;
 
 // 関数の名前空間経由での呼び出し
 \sample\ch05\sampleFunction();
