@@ -80,6 +80,7 @@ $username = $name ?: '名前が空です';
 echo $username.PHP_EOL; // 名前が空です
 
 /** エルビス演算子は、未定義の変数を参照すると警告が発生する **/
+ini_set('display_errors', 1);
 error_reporting(E_ALL);
 // Notice: Undefined variable: undefname 
 echo ($undefname ?: '名前が空です').PHP_EOL; // 名前が空です
