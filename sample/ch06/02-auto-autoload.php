@@ -1,6 +1,6 @@
 <?php
 /**
- * オートロードの自動化
+ * オートロードによる自動読み込み関数の登録
  */
 spl_autoload_register(function ($classname) {
     $ds = DIRECTORY_SEPARATOR;
