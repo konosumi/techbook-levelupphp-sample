@@ -13,7 +13,7 @@ class A {
     }
     public static function testStatic() {
         // staticが誰を指し示すのかは、実行時の段階で決定される
-        // Aを継承した他のクラスから呼び出された場合、static=継承先のクラスとなる
+        // Aを継承したクラス経由で呼び出されると、static=継承先のクラスとなる
         static::who();
     }
 }
