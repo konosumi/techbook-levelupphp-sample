@@ -79,4 +79,3 @@ echo "----------".PHP_EOL;
 // foo isn't <br />
 // bar
 echo nl2br("foo isn't \n bar").PHP_EOL;
-
