@@ -4,7 +4,7 @@
  */
 
 // traitの定義
-trait transport {
+trait transport1 {
     // 静的関数
     static function test() {
         echo "test!".PHP_EOL;
@@ -14,6 +14,7 @@ trait transport {
         echo "Can Ride!".PHP_EOL;
     }
 }
+trait transport2 {}
 
 class Base {
     function ridePrice() {
@@ -24,11 +25,11 @@ class Base {
 // TaxiクラスはBaseを継承している
 class Taxi extends Base {
     // PHPではクラスの多重継承はできないが、traitを使って拡張はできる
-    use transport;
+    use transport1, transport2;
 }
 class Train extends Base {
     // traitは他のクラスでも使い回すことができる
-    use transport;
+    use transport1, transport2;
 }
 
 // useで実装したtraitの関数は、
