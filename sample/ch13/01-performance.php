@@ -9,9 +9,11 @@ function test($count) {
     }
 }
 
+// 終了時間 - 開始時間 = かかった時間
 $start = microtime(true);
 test(10000000);
 $end  = microtime(true);
+$elapsed = $end -  $start;
 
 // test()に0.18110203742981秒かかりました
-echo 'test()に'.($end -  $start).'秒かかりました'.PHP_EOL;
+echo 'test()に'.$elapsed.'秒かかりました'.PHP_EOL;
