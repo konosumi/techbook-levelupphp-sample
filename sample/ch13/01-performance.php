@@ -13,5 +13,5 @@ $start = microtime(true);
 test(10000000);
 $end  = microtime(true);
 
-// est()に0.18110203742981秒かかりました
+// test()に0.18110203742981秒かかりました
 echo 'test()に'.($end -  $start).'秒かかりました'.PHP_EOL;
