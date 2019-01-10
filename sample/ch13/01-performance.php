@@ -9,7 +9,7 @@ function test($count) {
     }
 }
 
-// 終了時間 - 開始時間 = かかった時間
+// かかった時間 = 終了時間 - 開始時間
 $start = microtime(true);
 test(10000000);
 $end  = microtime(true);
