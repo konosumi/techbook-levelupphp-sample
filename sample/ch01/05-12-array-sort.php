@@ -14,3 +14,9 @@ $array = ['c' => 'd', 'a' => 'b'];
 asort($array);
 // array(2) { ["a"]=> string(1) "b" ["c"]=> string(1) "d" }
 var_dump($array);
+
+// krsort()配列のキーを使った逆順ソート
+$array = ['a' => 'b', 'c' => 'd'];
+krsort($array);
+// array(2) { ["c"]=> string(1) "d" ["a"]=> string(1) "b" }
+var_dump($array);
