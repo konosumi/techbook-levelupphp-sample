@@ -13,7 +13,7 @@ var_dump($array3 + $array4);
 // [["fruits"]=> "oprange" ["code"]=> "php" ["drink"]=> "beer"]
 var_dump(array_merge($array3, $array4));
 
-/** array_merge()は添え字の数値を整頓してしまう **/
+/** array_merge()は要素名の数値を整頓してしまう **/
 $array5 = ['11' => 'a'];
 $array6 = ['22' => 'b', '3c' => 'd'];
 // [11]=> "a" [22]=> "b", ["3c"]=> "d"
