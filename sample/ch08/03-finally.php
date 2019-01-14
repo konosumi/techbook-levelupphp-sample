@@ -1,6 +1,6 @@
 <?php
 /**
- * (PHP5.5)try/catchのfinallyブロック
+ * (PHP5.5)try〜catchのfinallyブロック
  */
 class RandomException extends \Exception {}
 
