@@ -18,7 +18,7 @@ function writeFile($file) {
     } catch (Exception $e) {
         echo $e->getMessage().PHP_EOL; // 処理が失敗しました
     } finally {
-        // try/catch内でどの経路を辿ったとしても、必ず最後に実行したい処理を記述
+        // どの経路を辿っても、必ず最後には実行したい処理を記述
         echo 'ファイルポインタは開かれていても必ず閉じます'.PHP_EOL;
         if (is_resource($fp)) {
             fclose($fp);
