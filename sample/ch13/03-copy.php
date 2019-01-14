@@ -14,7 +14,7 @@ $b .= 'b';
 // コピーされたので、メモリの割当量が一気に増えた
 echo 'メモリ割当量：'.memory_get_usage().PHP_EOL; // 2359360
 
-/** オブジェクトはコピーされない */
+/** オブジェクトの実体はコピーされずに共有される */
 $c = new class { public $test; };
 $c->test = str_repeat('c', 10);
 $d = $c;
