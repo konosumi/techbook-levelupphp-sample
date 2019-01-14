@@ -19,13 +19,14 @@ function writeFile($file) {
         echo $e->getMessage().PHP_EOL; // 処理が失敗しました
     } finally {
         // どの経路を辿っても、必ず最後には実行したい処理を記述
-        echo 'ファイルポインタは開かれていても必ず閉じます'.PHP_EOL;
         if (is_resource($fp)) {
+            echo 'ファイルポインタを閉じます'.PHP_EOL;
             fclose($fp);
         }
     }
 }
 
 // ランダムに失敗しました
-// ファイルポインタは開かれていても必ず閉じます
-writeFile('test.txt');
+// ファイルポインタを閉じます
+writeFile('./test.txt');
+unlink('./test.txt');
