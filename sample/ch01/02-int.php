@@ -38,7 +38,7 @@ var_dump($over100 === $over101); // bool(true)
 
 /** (PHP5.6)累乗演算子 */
 
-// PHP5.5まではpow()を使う必要があった
+// PHP5.5まではpow()を使う必要がありました
 var_dump(pow(2, 3)); // int(8)
 // PHP5.6で**演算子が追加されました
 var_dump(2 ** 3); // int(8)
