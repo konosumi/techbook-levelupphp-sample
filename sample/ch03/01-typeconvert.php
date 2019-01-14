@@ -50,6 +50,15 @@ var_dump(in_array($c, ['0A', '1B', '2C'])); // bool(true)
 var_dump(in_array($c, ['0A', '1B', '2C'], true)); // bool(false)
 //}
 
+/** array_search()でも同じことが起こる **/
+$as = 1;
+
+// 緩やかな比較
+var_dump(array_search($as, ['0A', '1B', '2C'])); // int(1)
+
+// 厳密な比較
+var_dump(array_search($as, ['0A', '1B', '2C'], true)); // bool(false)
+
 /**
  * 論理型(bool)への変換が働くifの変数判定
  */
