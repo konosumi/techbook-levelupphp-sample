@@ -8,7 +8,7 @@ $val = 'aiueo';
 
 <?php
 /**
- * 以下のように、PHP起動時にphp.iniディレクティブを切り替えて動作確認ができます
+ * PHPの起動時に、-dでphp.iniの設定を切り替えて動作確認ができます
  * php -d short_open_tag=false /path/to/sample.php
  * 
  * short_open_tagの設定によって、<?が動くかどうかが決まります
