@@ -12,8 +12,8 @@ $val = 'aiueo';
  * php -d short_open_tag=false /path/to/sample.php
  * 
  * short_open_tagの設定によって、<?が動くかどうかが決まります
- * short_open_tag=false <? echo $val.PHP_EOL ?>
- * short_open_tag=true  aiueo
+ * short_open_tag=false <? echo $val.PHP_EOL ?>がそのまま出力される
+ * short_open_tag=true  aiueoが出力される
  */
 ?>
 <? echo $val.PHP_EOL ?>
