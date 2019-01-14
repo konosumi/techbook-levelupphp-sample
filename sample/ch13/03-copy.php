@@ -13,3 +13,10 @@ echo 'メモリ割当量：'.memory_get_usage().PHP_EOL; // 1355840
 $b .= 'b';
 // コピーされたので、メモリの割当量が一気に増えた
 echo 'メモリ割当量：'.memory_get_usage().PHP_EOL; // 2359360
+
+/** オブジェクトはコピーされない */
+$c = new class { public $test; };
+$c->test = str_repeat('c', 10);
+$d = $c;
+$d->test = str_repeat('d', 10); // dddddddddd
+echo $c->test.PHP_EOL;
