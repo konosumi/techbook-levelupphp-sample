@@ -35,3 +35,14 @@ var_dump($overMin); // float(-9.2233720368548E+18)
 $over100 = PHP_INT_MAX + 100;
 $over101 = PHP_INT_MAX + 101;
 var_dump($over100 === $over101); // bool(true)
+
+/** (PHP5.6)累乗演算子 */
+
+// PHP5.5まではpow()を使う必要があった
+var_dump(pow(2, 3)); // int(8)
+// PHP5.6で**演算子が追加されました
+var_dump(2 ** 3); // int(8)
+
+// 数値でない値を累乗しようとすると警告が発生します
+// Warning: A non-numeric value encountered
+var_dump('a' ** 3); // int(0)
