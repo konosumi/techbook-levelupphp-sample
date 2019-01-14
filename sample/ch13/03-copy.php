@@ -35,3 +35,17 @@ echo $j.PHP_EOL; // 1
 $j = 1;
 add2($j);
 echo $j.PHP_EOL; // 11
+
+/** 配列でも値渡しと参照渡しはある */
+function arr1(&$a) { $a[0] = 0; }
+function arr2($a)  { $a[0] = 0; }
+
+$array = [1,2,3];
+arr1($array);
+// array(3) { [0]=> int(0) [1]=> int(2) [2]=> int(3) }
+var_dump($array);
+
+$array = [1,2,3];
+arr2($array);
+// array(3) { [0]=> int(1) [1]=> int(2) [2]=> int(3) }
+var_dump($array);
