@@ -4,7 +4,7 @@
  */
 $val = 'aiueo';
 ?>
-<?= $val.PHP_EOL // aiueo ?>
+<?= $val.PHP_EOL /* <?php echo $val と同義です */ ?>
 
 <?php
 /**
