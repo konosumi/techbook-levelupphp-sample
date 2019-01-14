@@ -15,7 +15,7 @@ fruits(...$array);
 
 /** 引数展開で過不足があるとどうなるのか */
 
-// 配列のほうが長いと先頭の2つだけ使われる
+// 配列が長ければ先頭の2つだけ使われる
 function fruits2($a, $b) {
     echo $a.PHP_EOL; // りんご
     echo $b.PHP_EOL; // みかん
