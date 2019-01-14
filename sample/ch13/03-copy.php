@@ -20,3 +20,18 @@ $c->test = str_repeat('c', 10);
 $d = $c;
 $d->test = str_repeat('d', 10); // dddddddddd
 echo $c->test.PHP_EOL;
+
+/** 値渡しと参照渡し */
+function add1($i)  { $i += 10; }
+// 変数の先頭に&で参照渡しになる
+function add2(&$i) { $i += 10; }
+
+// 値渡しでは、関数の呼び出し元の変数は変化しない
+$j = 1;
+add1($j);
+echo $j.PHP_EOL; // 1
+
+// 参照渡しでは、関数の呼び出し元の変数も変化する
+$j = 1;
+add2($j);
+echo $j.PHP_EOL; // 11
