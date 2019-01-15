@@ -14,7 +14,9 @@ $result = preg_replace('/'.$before.'/', $after, $str);
 echo $result.PHP_EOL;
 
 // メタ文字のアスタリスク(*)ではなく、単純な文字として判定させます
-// 結果：d
 $quoted = preg_quote($before, '/');
+var_dump($quoted); // string(7) "a\*b\*c"となりエスケープされた
+
+// 結果：d
 $result = preg_replace('/'.$quoted.'/', $after, $str);
 echo $result.PHP_EOL;
