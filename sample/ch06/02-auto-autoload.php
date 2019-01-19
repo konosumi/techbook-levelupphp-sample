@@ -21,6 +21,7 @@ spl_autoload_register(function ($classname) {
     // プロジェクト直下から辿ると、全てのPHPファイルが対象になってしまう
     // 今回の自動読み込みはサンプル下だけに限定しておきます
     $samplePath = $pjRootPath.$ds.'sample';
+    // サンプル下にあるファイルを読み込もうとしていれば0になるはず
     if (strpos($loadClassFile, $samplePath) !== 0) {
         return;
     }
