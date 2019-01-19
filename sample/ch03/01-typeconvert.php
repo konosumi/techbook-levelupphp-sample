@@ -120,6 +120,7 @@ var_dump((string) false); // string(0) ""
 
 /** 配列やオブジェクトから文字列への変換 */
 var_dump((string) ["abc", "def"]); // string(5) "Array"
+
 // Recoverable fatal error: Object of class stdClass
 // could not be converted to string 
 //var_dump((string) new stdClass());
