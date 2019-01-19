@@ -2,6 +2,7 @@
 
 # Composer
 vendor/
+sample/ch07/vendor/
 
 # Smarty Cache
 templates_c/

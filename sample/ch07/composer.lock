@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "60ceb024b1943497f5e1ae7a25681919",
+    "packages": [
+        {
+            "name": "tnnsst35/naokihanzawa",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tnnsst35/naokihanzawa.git",
+                "reference": "0d9fa3e488f01f58d9b9de5e2ac89e0625801ea5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tnnsst35/naokihanzawa/zipball/0d9fa3e488f01f58d9b9de5e2ac89e0625801ea5",
+                "reference": "0d9fa3e488f01f58d9b9de5e2ac89e0625801ea5",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "NaokiHanzawa.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "tnnsst35",
+                    "email": "tnnsst35@gmail.com",
+                    "homepage": "http://tnnsst35.com"
+                }
+            ],
+            "description": "NaokiHanzawa is a famous character in Japan.",
+            "homepage": "https://github.com/tnnsst35/naokihanzawa",
+            "keywords": [
+                "hanzawanaoki",
+                "naokihanzawa"
+            ],
+            "time": "2013-12-03T00:00:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
