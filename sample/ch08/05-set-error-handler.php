@@ -15,6 +15,6 @@ set_error_handler(function ($errno, $errstr, $errfile, $errline) {
     echo 'errhandler: ', $errno, ' : ', $errstr, PHP_EOL;
 });
 
-// 再び、未定義の定数を使用してみる
+// 再び未定義の定数を使用してみると、エラーハンドラが捕捉していることがわかる
 // errhandler: 8 : Use of undefined constant ABCDE - assumed 'ABCDE'
 ABCDE;
