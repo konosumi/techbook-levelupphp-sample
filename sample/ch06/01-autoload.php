@@ -22,7 +22,7 @@ spl_autoload_register(function ($classname) {
     }
 });
 
-// 初回の呼び出しだけ、クラスの読み込みが走っていることが分かります
+/** 初回の呼び出しだけ、クラスの読み込みが走っていることが分かります **/
 
 // 新しく読み込みます: sample\ch06\WelcomeAutoload
 // Welcome to autoload!
