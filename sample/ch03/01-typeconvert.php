@@ -98,6 +98,10 @@ if (strlen($d) > 0) {
 var_dump((int) true);  // int(1)
 var_dump((int) false); // int(0)
 
+/** 浮動小数点数(float)から整数への変換 **/
+var_dump((int) 1.1);     // 1
+var_dump((int) 0.333e2); // 33
+
 /** 文字列から数値への変換 **/
 $foo = 1 + "10.5";              // $foo は float です (11.5)
 $foo = 1 + "-1.3e3";            // $foo は float です (-1299)
