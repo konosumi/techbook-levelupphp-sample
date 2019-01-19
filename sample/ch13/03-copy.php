@@ -18,8 +18,8 @@ echo 'メモリ割当量：'.memory_get_usage().PHP_EOL; // 2359360
 $c = new class { public $test; };
 $c->test = str_repeat('c', 10);
 $d = $c;
-$d->test = str_repeat('d', 10); // dddddddddd
-echo $c->test.PHP_EOL;
+$d->test = str_repeat('d', 10);
+echo $c->test.PHP_EOL; // dddddddddd
 
 /** 値渡しと参照渡し */
 function add1($i)  { $i += 10; }
