@@ -124,6 +124,12 @@ var_dump((string) ["abc", "def"]); // string(5) "Array"
 // could not be converted to string 
 //var_dump((string) new stdClass());
 
+/** スカラー値の配列(array)への変換 **/
+var_dump((array) true); // array(1) { [0]=> bool(true) }
+var_dump((array) 1); // array(1) { [0]=> int(1) }
+var_dump((array) 1.1); // array(1) { [0]=> float(1.1) }
+var_dump((array) 'abcde'); // array(1) { [0]=> string(5) "abcde" }
+
 /** 配列からオブジェクトへの変換 */
 $obj = (object) ['bar' => 'foo'];
 var_dump($obj->bar); // string(3) "foo"
