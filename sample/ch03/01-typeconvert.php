@@ -142,8 +142,13 @@ echo $obj->scalar.PHP_EOL; // 'ciao' を出力します
 
 /** リソース型を変換してみる **/
 $resource = imagecreate(110, 120);
+
 var_dump((bool) $resource); // bool(true)
 var_dump((int) $resource); // int(4)
+var_dump((string) $resource); // string(14) "Resource id #4"
+
 // array(1) { [0]=> resource(4) of type (gd) }
 var_dump((array) $resource);
-var_dump((string) $resource); // string(14) "Resource id #4"
+
+// object(stdClass)#1 (1) { ["scalar"]=> resource(4) of type (gd) }
+var_dump((object) $resource);
