@@ -110,6 +110,12 @@ $foo = "10.0 pigs " + 1.0;      // $foo は float です (11)
 var_dump((string) true);  // string(1) "1"
 var_dump((string) false); // string(0) ""
 
+/** その他の型から文字列への変換 */
+var_dump((string) ["abc", "def"]); // string(5) "Array"
+// Recoverable fatal error: Object of class stdClass
+// could not be converted to string 
+//var_dump((string) new stdClass());
+
 /** 配列からオブジェクトへの変換 */
 $obj = (object) ['bar' => 'foo'];
 var_dump($obj->bar); // string(3) "foo"
