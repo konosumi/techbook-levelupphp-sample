@@ -3,10 +3,8 @@
  * テンプレートエンジンの実装サンプル
  */
 
-// 実用レベルでは、基盤・上流側の処理で予めrequireしておきます
-// 今回はサンプルなので、暫定的にディレクトリを上がって読み込ます
-require implode(DIRECTORY_SEPARATOR,
-    [__DIR__, '..', '..', 'vendor', 'autoload.php']);
+// オートロードによるインストールしたライブラリの自動読み込み
+require 'vendor/autoload.php';
 
 // Smartyクラスを使います
 $smarty = new Smarty();
