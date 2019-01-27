@@ -23,4 +23,7 @@ docker-compose up -d
 
 # dockerの中に入る
 docker exec -it docker_apache-php-7.3_1 bash
+
+# ブラウザアクセスでは、付録AのビルトインウェブサーバーをApacheで動かしたルーティングエンジンが起動します。
+# http://localhost:8080/phpinfo
 ```
