@@ -23,8 +23,8 @@ docker-compose up -d
 
 # dockerの中に入って、PHPを実行する
 docker exec -it docker_apache-php-7.3_1 bash
-cd /var/www/sample/
-php hello-levelup.php
+> cd /var/www/sample/
+> php hello-levelup.php
 
 # ブラウザアクセスでは、付録AのビルトインウェブサーバーをApacheで動かしたルーティングエンジンが起動します。
 # http://localhost:8080/phpinfo
