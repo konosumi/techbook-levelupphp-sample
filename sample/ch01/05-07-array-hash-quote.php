@@ -3,7 +3,11 @@
  * 連想配列の要素名を括るか括らないか
  */
 
-/** 連想配列の要素名をクオートで括らない **/
+/**
+ * 連想配列の要素名をクオートで括らない
+ * (PHP7.2〜)Warning: Use of undefined constant a - assumed 'a'
+ * (this will throw an Error in a future version of PHP)
+ */
 $a = [ a => "b" ];
 // array(1) { ["a"]=> string(1) "b" }
 var_dump($a);
