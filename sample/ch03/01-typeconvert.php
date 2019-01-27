@@ -150,5 +150,6 @@ var_dump((string) $resource); // string(14) "Resource id #5"
 // array(1) { [0]=> resource(5) of type (stream) }
 var_dump((array) $resource);
 
-// object(stdClass)#1 (1) { ["scalar"]=> resource(5) of type (stream) }
+// object(stdClass)#1 (1) { ["scalar"]=>
+// resource(5) of type (stream) }
 var_dump((object) $resource);
