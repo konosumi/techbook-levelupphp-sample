@@ -141,14 +141,14 @@ $obj = (object) 'ciao';
 echo $obj->scalar.PHP_EOL; // 'ciao' を出力します
 
 /** リソース型を変換してみる **/
-$resource = imagecreate(110, 120);
+$resource = fopen(__FILE__, 'r');
 
 var_dump((bool) $resource); // bool(true)
-var_dump((int) $resource); // int(4)
-var_dump((string) $resource); // string(14) "Resource id #4"
+var_dump((int) $resource); // int(5)
+var_dump((string) $resource); // string(14) "Resource id #5"
 
-// array(1) { [0]=> resource(4) of type (gd) }
+// array(1) { [0]=> resource(5) of type (stream) }
 var_dump((array) $resource);
 
-// object(stdClass)#1 (1) { ["scalar"]=> resource(4) of type (gd) }
+// object(stdClass)#1 (1) { ["scalar"]=> resource(5) of type (stream) }
 var_dump((object) $resource);
