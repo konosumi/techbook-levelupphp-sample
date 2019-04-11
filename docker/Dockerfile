@@ -5,3 +5,4 @@ RUN a2enmod rewrite
 
 # ComposerでのパッケージインストールにGitクライアントを使用します。
 RUN apt-get update && apt-get install -y git && apt-get clean
+
