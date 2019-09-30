@@ -34,3 +34,7 @@ docker-compose down
 # ブラウザアクセスでは、付録AのビルトインウェブサーバーをApacheで動かしたルーティングエンジンが起動します。
 # http://localhost:8080/phpinfo
 ```
+
+## お知らせ
+
+* リンク集（links.md）を追加しました。
