@@ -1,244 +1,244 @@
 ● 1章
-./articles/zch001-prologue.re:@<href>{https://github.com/konosumi/techbook-levelupphp-sample.git}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/language.types.php}
-./articles/zch101-vartype.re: ** @<href>{https://hnw.hatenablog.com/entry/20141207}
-./articles/zch101-vartype.re: ** @<href>{https://qiita.com/DQNEO/items/a5d9f5d80dc8b14071f4}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/language.types.boolean.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/language.types.integer.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/language.types.float.php}
-./articles/zch101-vartype.re: ** @<href>{http://php.net/manual/ja/language.types.float.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/language.types.string.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/ref.mbstring.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/function.mb-convert-kana.php}
-./articles/zch101-vartype.re: ** @<href>{https://www.softel.co.jp/blogs/tech/archives/596}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/ini.core.php#ini.default-charset}
-./articles/zch101-vartype.re: ** @<href>{https://qiita.com/ritukiii/items/624eb475b85e28613a70}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/function.nl2br.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/language.types.array.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/function.array-push.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/array.sorting.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/language.types.iterable.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/class.iterator.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/language.generators.php}
-./articles/zch101-vartype.re: ** @<href>{https://github.com/kreait/firebase-php/}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/language.types.object.php}
-./articles/zch101-vartype.re: ** @<href>{http://www.tohoho-web.com/ex/json.html}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/language.oop5.traits.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/language.oop5.late-static-bindings.php}
-./articles/zch101-vartype.re: ** @<href>{http://maeharin.hatenablog.com/entry/20130202/php_late_static_bindings}
-./articles/zch101-vartype.re: ** @<href>{https://1design.jp/web-development/1947}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/language.types.resource.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/resource.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/function.curl-setopt.php}
-./articles/zch101-vartype.re: * @<href>{https://github.com/guzzle/guzzle}
-./articles/zch101-vartype.re: ** @<href>{https://gfonius.net/blog/docker-php-gd/}
-./articles/zch101-vartype.re: ** @<href>{http://www.atmarkit.co.jp/ait/articles/1703/29/news045.html}
-./articles/zch101-vartype.re: ** @<href>{https://qiita.com/suin/items/5f2322d2762d7d1677bb}
-./articles/zch101-vartype.re:@<href>{https://github.com/goodby/csv}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/resource.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/language.types.null.php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/function.empty.php}
-./articles/zch101-vartype.re: ** @<href>{https://stackoverflow.com/questions/1993409/operator-the-elvis-operator-in-php}
-./articles/zch101-vartype.re:@<href>{http://php.net/manual/ja/language.types.callable.php}
-./articles/zch101-vartype.re: ** @<href>{https://qiita.com/stkdev/items/5c021d4e5d54d56b927c}
-./articles/zch101-vartype.re: ** @<href>{https://qiita.com/rana_kualu/items/180990033bd9b1b2c316#skipping-optional-parameters}
+https://github.com/konosumi/techbook-levelupphp-sample.git
+http://php.net/manual/ja/language.types.php
+https://hnw.hatenablog.com/entry/20141207
+https://qiita.com/DQNEO/items/a5d9f5d80dc8b14071f4
+http://php.net/manual/ja/language.types.boolean.php
+http://php.net/manual/ja/language.types.integer.php
+http://php.net/manual/ja/language.types.float.php
+http://php.net/manual/ja/language.types.float.php
+http://php.net/manual/ja/language.types.string.php
+http://php.net/manual/ja/ref.mbstring.php
+http://php.net/manual/ja/function.mb-convert-kana.php
+https://www.softel.co.jp/blogs/tech/archives/596
+http://php.net/manual/ja/ini.core.php#ini.default-charset
+https://qiita.com/ritukiii/items/624eb475b85e28613a70
+http://php.net/manual/ja/function.nl2br.php
+http://php.net/manual/ja/language.types.array.php
+http://php.net/manual/ja/function.array-push.php
+http://php.net/manual/ja/array.sorting.php
+http://php.net/manual/ja/language.types.iterable.php
+http://php.net/manual/ja/class.iterator.php
+http://php.net/manual/ja/language.generators.php
+https://github.com/kreait/firebase-php/
+http://php.net/manual/ja/language.types.object.php
+http://www.tohoho-web.com/ex/json.html
+http://php.net/manual/ja/language.oop5.traits.php
+http://php.net/manual/ja/language.oop5.late-static-bindings.php
+http://maeharin.hatenablog.com/entry/20130202/php_late_static_bindings
+https://1design.jp/web-development/1947
+http://php.net/manual/ja/language.types.resource.php
+http://php.net/manual/ja/resource.php
+http://php.net/manual/ja/function.curl-setopt.php
+https://github.com/guzzle/guzzle
+https://gfonius.net/blog/docker-php-gd/
+http://www.atmarkit.co.jp/ait/articles/1703/29/news045.html
+https://qiita.com/suin/items/5f2322d2762d7d1677bb
+https://github.com/goodby/csv
+http://php.net/manual/ja/resource.php
+http://php.net/manual/ja/language.types.null.php
+http://php.net/manual/ja/function.empty.php
+https://stackoverflow.com/questions/1993409/operator-the-elvis-operator-in-php
+http://php.net/manual/ja/language.types.callable.php
+https://qiita.com/stkdev/items/5c021d4e5d54d56b927c
+https://qiita.com/rana_kualu/items/180990033bd9b1b2c316#skipping-optional-parameters
 
 ● 2章
-./articles/zch102-varscope.re:@<href>{http://php.net/manual/ja/language.variables.superglobals.php}
-./articles/zch102-varscope.re: ** @<href>{https://qiita.com/suin/items/b432f964d2b6e1e9e64d}
-./articles/zch102-varscope.re:@<href>{http://php.net/manual/ja/reserved.variables.php}
-./articles/zch102-varscope.re:@<href>{http://php.net/manual/ja/language.types.php}@<br>{}
-./articles/zch102-varscope.re:@<href>{http://php.net/manual/ja/reserved.constants.php}@<br>{}
-./articles/zch102-varscope.re:@<href>{http://php.net/manual/ja/language.constants.predefined.php}
+http://php.net/manual/ja/language.variables.superglobals.php
+https://qiita.com/suin/items/b432f964d2b6e1e9e64d
+http://php.net/manual/ja/reserved.variables.php
+http://php.net/manual/ja/language.types.php
+http://php.net/manual/ja/reserved.constants.php
+http://php.net/manual/ja/language.constants.predefined.php
 
 ● 3章
-./articles/zch103-typeconvert.re:@<href>{http://php.net/manual/ja/language.types.boolean.php}
-./articles/zch103-typeconvert.re:@<href>{http://php.net/manual/ja/language.types.integer.php}
-./articles/zch103-typeconvert.re: * @<href>{http://php.net/manual/ja/language.types.string.php}
-./articles/zch103-typeconvert.re:@<href>{http://php.net/manual/ja/language.types.array.php}
-./articles/zch103-typeconvert.re:@<href>{http://php.net/manual/ja/language.types.object.php}
+http://php.net/manual/ja/language.types.boolean.php
+http://php.net/manual/ja/language.types.integer.php
+http://php.net/manual/ja/language.types.string.php
+http://php.net/manual/ja/language.types.array.php
+http://php.net/manual/ja/language.types.object.php
 
 ● 4章
-./articles/zch104-typedeclaration.re:@<href>{http://php.net/manual/ja/functions.arguments.php#functions.arguments.type-declaration}
-./articles/zch104-typedeclaration.re: ** @<href>{https://www.ohmsha.co.jp/book/9784274064067/}
-./articles/zch104-typedeclaration.re:@<href>{http://php.net/manual/ja/class.typeerror.php}
-./articles/zch104-typedeclaration.re: ** @<href>{https://blog.shin1x1.com/entry/php-development-with-type-declration}
-./articles/zch104-typedeclaration.re: ** @<href>{https://www.youtube.com/watch?v=Ttwye1aYMV0}
-./articles/zch104-typedeclaration.re: ** @<href>{https://qiita.com/mpyw/items/25abc3e51fddc85e0ec0}
-./articles/zch104-typedeclaration.re: * @<href>{http://php.net/manual/en/filter.examples.validation.php}
-./articles/zch104-typedeclaration.re: ** @<href>{https://www.youtube.com/watch?v=54jHDHvcYAo}
-./articles/zch104-typedeclaration.re: ** @<href>{https://speakerdeck.com/twada/php-conference-2016}
+http://php.net/manual/ja/functions.arguments.php#functions.arguments.type-declaration
+https://www.ohmsha.co.jp/book/9784274064067/
+http://php.net/manual/ja/class.typeerror.php
+https://blog.shin1x1.com/entry/php-development-with-type-declration
+https://www.youtube.com/watch?v=Ttwye1aYMV0
+https://qiita.com/mpyw/items/25abc3e51fddc85e0ec0
+http://php.net/manual/en/filter.examples.validation.php
+https://www.youtube.com/watch?v=54jHDHvcYAo
+https://speakerdeck.com/twada/php-conference-2016
 
 ● 5章
-./articles/zch105-namespace.re:@<href>{http://php.net/manual/ja/language.namespaces.rationale.php}
+http://php.net/manual/ja/language.namespaces.rationale.php
 
 ● 6章
-./articles/zch106-autoload.re:@<href>{http://php.net/manual/ja/language.oop5.autoload.php}
+http://php.net/manual/ja/language.oop5.autoload.php
 
 ● 7章
-./articles/zch107-library.re: ** @<href>{https://pecl.php.net/}
-./articles/zch107-library.re: ** @<href>{https://pear.php.net/}
-./articles/zch107-library.re: ** @<href>{https://packagist.org/}
-./articles/zch107-library.re: ** @<href>{https://packagist.org/packages/tnnsst35/naokihanzawa}
+https://pecl.php.net/
+https://pear.php.net/
+https://packagist.org/
+https://packagist.org/packages/tnnsst35/naokihanzawa
 
 ● 8章
-./articles/zch108-error-exception.re:@<href>{http://php.net/manual/ja/language.errors.php7.php}
-./articles/zch108-error-exception.re:@<href>{http://php.net/manual/ja/spl.exceptions.php}
-./articles/zch108-error-exception.re: ** @<href>{http://blog.asial.co.jp/1128}
-./articles/zch108-error-exception.re: ** @<href>{https://uzulla.hateblo.jp/entry/2013/12/20/041619}
-./articles/zch108-error-exception.re:@<href>{http://php.net/manual/ja/function.debug-backtrace.php}
-./articles/zch108-error-exception.re: ** @<href>{https://www.sodo-shed.com/archives/12197}
-./articles/zch108-error-exception.re: ** @<href>{https://www.infiniteloop.co.jp/blog/2016/12/php-assertion-expectation/}
+http://php.net/manual/ja/language.errors.php7.php
+http://php.net/manual/ja/spl.exceptions.php
+http://blog.asial.co.jp/1128
+https://uzulla.hateblo.jp/entry/2013/12/20/041619
+http://php.net/manual/ja/function.debug-backtrace.php
+https://www.sodo-shed.com/archives/12197
+https://www.infiniteloop.co.jp/blog/2016/12/php-assertion-expectation/
 
 ● 9章
-./articles/zch109-architecture.re: ** @<href>{http://fuelphp.jp/docs/1.9/general/presenters.html}
-./articles/zch109-architecture.re: ** @<href>{http://www.1x1.jp/blog/2015/06/layerd-architecture-php-application.html}
-./articles/zch109-architecture.re: ** @<href>{http://laravel.jp/}
-./articles/zch109-architecture.re: ** @<href>{https://allabout-tech.hatenablog.com/entry/2016/11/29/100000}
-./articles/zch109-architecture.re: ** @<href>{http://gihyo.jp/book/2010/978-4-7741-4437-5}
-./articles/zch109-architecture.re: ** @<href>{https://blog.shin1x1.com/entry/independent-core-layer-pattern}
-./articles/zch109-architecture.re: ** @<href>{https://speakerdeck.com/shin1x1/phpcon2018-independent-core-layer-pattern}
-./articles/zch109-architecture.re: ** @<href>{https://tech.mercari.com/entry/2018/12/01/200159}
-./articles/zch109-architecture.re: ** @<href>{https://techlife.cookpad.com/entry/2018-odaiba-strategy}
+http://fuelphp.jp/docs/1.9/general/presenters.html
+http://www.1x1.jp/blog/2015/06/layerd-architecture-php-application.html
+http://laravel.jp/
+https://allabout-tech.hatenablog.com/entry/2016/11/29/100000
+http://gihyo.jp/book/2010/978-4-7741-4437-5
+https://blog.shin1x1.com/entry/independent-core-layer-pattern
+https://speakerdeck.com/shin1x1/phpcon2018-independent-core-layer-pattern
+https://tech.mercari.com/entry/2018/12/01/200159
+https://techlife.cookpad.com/entry/2018-odaiba-strategy
 
 ● 10章
-./articles/zch110-psr.re: ** @<href>{https://www.php-fig.org/psr/}
-./articles/zch110-psr.re: ** @<href>{http://www.infiniteloop.co.jp/docs/psr/psr-0.html}
-./articles/zch110-psr.re: ** @<href>{http://www.infiniteloop.co.jp/docs/psr/psr-1-basic-coding-standard.html}
-./articles/zch110-psr.re: ** @<href>{http://www.infiniteloop.co.jp/docs/psr/psr-2-coding-style-guide.html}
-./articles/zch110-psr.re: ** @<href>{https://www.php-fig.org/psr/psr-3/}
-./articles/zch110-psr.re: ** @<href>{https://www.ritolab.com/entry/95}
-./articles/zch110-psr.re: ** @<href>{https://packagist.org/packages/monolog/monolog}
-./articles/zch110-psr.re: ** @<href>{https://github.com/Seldaek/monolog}
-./articles/zch110-psr.re:※引用：@<href>{https://readouble.com/laravel/5.6/ja/logging.html}
-./articles/zch110-psr.re: * @<href>{https://github.com/Seldaek/monolog/tree/master/src/Monolog/Handler}
-./articles/zch110-psr.re: ** @<href>{https://inside.pixiv.blog/ikari/3891}
-./articles/zch110-psr.re: ** @<href>{https://www.php-fig.org/psr/psr-7/}
-./articles/zch110-psr.re: ** @<href>{http://www.go-next.co.jp/blog/web/php/17817/}
-./articles/zch110-psr.re: ** @<href>{http://bashalog.c-brains.jp/17/08/23-100000.php}
-./articles/zch110-psr.re: ** @<href>{https://book.cakephp.org/3.0/ja/controllers/middleware.html#psr-7}
-./articles/zch110-psr.re: ** @<href>{https://github.com/php-fig/fig-standards/pull/1120}
-./articles/zch110-psr.re:@<href>{https://www.infiniteloop.co.jp/blog/2018/11/php-news-5/}
+https://www.php-fig.org/psr/
+http://www.infiniteloop.co.jp/docs/psr/psr-0.html
+http://www.infiniteloop.co.jp/docs/psr/psr-1-basic-coding-standard.html
+http://www.infiniteloop.co.jp/docs/psr/psr-2-coding-style-guide.html
+https://www.php-fig.org/psr/psr-3/
+https://www.ritolab.com/entry/95
+https://packagist.org/packages/monolog/monolog
+https://github.com/Seldaek/monolog
+https://readouble.com/laravel/5.6/ja/logging.html
+https://github.com/Seldaek/monolog/tree/master/src/Monolog/Handler
+https://inside.pixiv.blog/ikari/3891
+https://www.php-fig.org/psr/psr-7/
+http://www.go-next.co.jp/blog/web/php/17817/
+http://bashalog.c-brains.jp/17/08/23-100000.php
+https://book.cakephp.org/3.0/ja/controllers/middleware.html#psr-7
+https://github.com/php-fig/fig-standards/pull/1120
+https://www.infiniteloop.co.jp/blog/2018/11/php-news-5/
 
 ● 11章
-./articles/zch111-preg-match.re:@<href>{http://php.net/manual/ja/intro.pcre.php}
-./articles/zch111-preg-match.re:@<href>{http://php.net/manual/ja/reference.pcre.pattern.differences.php}
-./articles/zch111-preg-match.re:@<href>{http://php.net/manual/ja/regexp.reference.delimiters.php}
-./articles/zch111-preg-match.re: ** @<href>{http://okumocchi.jp/php/re.php}
+http://php.net/manual/ja/intro.pcre.php
+http://php.net/manual/ja/reference.pcre.pattern.differences.php
+http://php.net/manual/ja/regexp.reference.delimiters.php
+http://okumocchi.jp/php/re.php
 
 ● 12章
-./articles/zch112-template-engine.re: ** @<href>{https://www.smarty.net/docs/ja/}
-./articles/zch112-template-engine.re: ** @<href>{https://worktoolsmith.com/php-template-engines-matome/}
-./articles/zch112-template-engine.re: ** @<href>{http://sekaie.hatenablog.com/entry/2015/12/08/203810}
-./articles/zch112-template-engine.re: * @<href>{https://laravel.com/docs/5.7/blade}
-./articles/zch112-template-engine.re: * @<href>{https://twig.symfony.com/}
-./articles/zch112-template-engine.re:@<href>{http://php.net/manual/ja/language.basic-syntax.phptags.php}
+https://www.smarty.net/docs/ja/
+https://worktoolsmith.com/php-template-engines-matome/
+http://sekaie.hatenablog.com/entry/2015/12/08/203810
+https://laravel.com/docs/5.7/blade
+https://twig.symfony.com/
+http://php.net/manual/ja/language.basic-syntax.phptags.php
 
 ● 13章
-./articles/zch113-performance.re: ** @<href>{http://isucon.net/}
-./articles/zch113-performance.re:@<href>{http://isucon.net/archives/52606851.html}
-./articles/zch113-performance.re: ** @<href>{http://gihyo.jp/magazine/wdpress/plus/978-4-7741-4307-1}
-./articles/zch113-performance.re: ** @<href>{https://boxil.jp/beyond/a5835/}
-./articles/zch113-performance.re: ** @<href>{https://www.slideshare.net/hnw/phpcon-kansai20150530}
-./articles/zch113-performance.re: ** @<href>{http://sotarok.hatenablog.com/entry/20080603/1212599778}
-./articles/zch113-performance.re: ** @<href>{https://magazine.rubyist.net/articles/0032/0032-CallByValueAndCallByReference.html}
-./articles/zch113-performance.re:@<href>{http://php.net/manual/ja/function.debug-backtrace.php}@<br>{}
-./articles/zch113-performance.re:@<href>{http://php.net/manual/ja/function.debug-print-backtrace.php}
-./articles/zch113-performance.re: ** @<href>{https://news.mynavi.jp/article/20181207-737245/}
-./articles/zch113-performance.re: ** @<href>{https://www.phoronix.com/scan.php?page=news_item&px=PHP-7.3-Performance-Benchmarks}
-./articles/zch113-performance.re: ** @<href>{https://github.com/phpbench/phpbench}
-./articles/zch113-performance.re: ** @<href>{http://dietcake.github.io/}
-./articles/zch113-performance.re: ** @<href>{https://qiita.com/takahashi-yugo/items/8f141e6ca0259a2bd2c8}
-./articles/zch113-performance.re: ** @<href>{https://qiita.com/a_yasui/items/ed773044aa0482f85cd4}
+http://isucon.net/
+http://isucon.net/archives/52606851.html
+http://gihyo.jp/magazine/wdpress/plus/978-4-7741-4307-1
+https://boxil.jp/beyond/a5835/
+https://www.slideshare.net/hnw/phpcon-kansai20150530
+http://sotarok.hatenablog.com/entry/20080603/1212599778
+https://magazine.rubyist.net/articles/0032/0032-CallByValueAndCallByReference.html
+http://php.net/manual/ja/function.debug-backtrace.php
+http://php.net/manual/ja/function.debug-print-backtrace.php
+https://news.mynavi.jp/article/20181207-737245/
+https://www.phoronix.com/scan.php?page=news_item&px=PHP-7.3-Performance-Benchmarks
+https://github.com/phpbench/phpbench
+http://dietcake.github.io/
+https://qiita.com/takahashi-yugo/items/8f141e6ca0259a2bd2c8
+https://qiita.com/a_yasui/items/ed773044aa0482f85cd4
 
 ● 14章
-./articles/zch114-ver-up-php.re: ** @<href>{https://qiita.com/bezeklik/items/72d1ff8393f66673e2bc}
-./articles/zch114-ver-up-php.re: ** @<href>{http://php.net/supported-versions.php}
-./articles/zch114-ver-up-php.re:@<href>{http://php.net/manual/ja/migration70.php}@<br>{}
-./articles/zch114-ver-up-php.re:@<href>{http://php.net/manual/ja/migration71.php}@<br>{}
-./articles/zch114-ver-up-php.re:@<href>{http://php.net/manual/ja/migration72.php}@<br>{}
-./articles/zch114-ver-up-php.re:@<href>{http://php.net/manual/ja/migration73.php}
-./articles/zch114-ver-up-php.re: ** @<href>{http://php.net/manual/ja/migration71.deprecated.php}
-./articles/zch114-ver-up-php.re: ** @<href>{https://www.slideshare.net/hnw/php7}
-./articles/zch114-ver-up-php.re: ** @<href>{https://www.oreilly.com/web-platform/free/upgrading-to-php-seven.csp}
-./articles/zch114-ver-up-php.re: ** @<href>{https://inside.pixiv.blog/tadsan/3991}
-./articles/zch114-ver-up-php.re: ** @<href>{https://gihyo.jp/book/2018/978-4-7741-9686-2}
-./articles/zch114-ver-up-php.re: ** @<href>{https://kinsta.com/jp/blog/php-7-2/}
-./articles/zch114-ver-up-php.re: ** @<href>{https://kinsta.com/jp/blog/php-7-3/}
-./articles/zch114-ver-up-php.re: ** @<href>{https://qiita.com/rana_kualu/items/40ebed78742bfdbd1065}
-./articles/zch114-ver-up-php.re: ** @<href>{https://qiita.com/rana_kualu/items/a7c6be77e165bca0f3fc}
+https://qiita.com/bezeklik/items/72d1ff8393f66673e2bc
+http://php.net/supported-versions.php
+http://php.net/manual/ja/migration70.php
+http://php.net/manual/ja/migration71.php
+http://php.net/manual/ja/migration72.php
+http://php.net/manual/ja/migration73.php
+http://php.net/manual/ja/migration71.deprecated.php
+https://www.slideshare.net/hnw/php7
+https://www.oreilly.com/web-platform/free/upgrading-to-php-seven.csp
+https://inside.pixiv.blog/tadsan/3991
+https://gihyo.jp/book/2018/978-4-7741-9686-2
+https://kinsta.com/jp/blog/php-7-2/
+https://kinsta.com/jp/blog/php-7-3/
+https://qiita.com/rana_kualu/items/40ebed78742bfdbd1065
+https://qiita.com/rana_kualu/items/a7c6be77e165bca0f3fc
 
 ● 15章
-./articles/zch115-good-php-info.re: ** @<href>{https://inside.pixiv.blog/tadsan/3991}
-./articles/zch115-good-php-info.re: ** @<href>{http://phpmentors.jp/post/77212948742/wdpress-php-11}
-./articles/zch115-good-php-info.re: ** @<href>{https://www.oreilly.com/web-platform/free/upgrading-to-php-seven.csp}
-./articles/zch115-good-php-info.re: * PHPカンファレンス仙台： @<href>{https://phpcon-sendai.net/}
-./articles/zch115-good-php-info.re: * PHPカンファレンス福岡： @<href>{https://phpcon.fukuoka.jp/}
-./articles/zch115-good-php-info.re: * PHPカンファレンス北海道： @<href>{https://twitter.com/phpcondo}
-./articles/zch115-good-php-info.re: * PHPカンファレンス関西： @<href>{https://twitter.com/phpcon_kansai}
-./articles/zch115-good-php-info.re: * PHPカンファレンス： @<href>{http://phpcon.php.gr.jp/}
-./articles/zch115-good-php-info.re: ** @<href>{https://www.youtube.com/user/PHPConferenceJP/}
-./articles/zch115-good-php-info.re: ** @<href>{https://www.youtube.com/channel/UCoDkBdCiMDLZebhXsBJlXUA/}
-./articles/zch115-good-php-info.re: ** @<href>{https://www.youtube.com/channel/UCjRTsAj3qtcvnTj6IriRwgg/}
-./articles/zch115-good-php-info.re: * @<href>{https://phperkaigi.jp/}
-./articles/zch115-good-php-info.re: * @<href>{https://phpstudy.doorkeeper.jp/}
-./articles/zch115-good-php-info.re: * @<href>{https://yyphp.connpass.com/}
-./articles/zch115-good-php-info.re: ** @<href>{https://twitter.com/laraveljpcon}
-./articles/zch115-good-php-info.re: ** @<href>{https://cakefest.org/}
-./articles/zch115-good-php-info.re: ** @<href>{https://www.infiniteloop.co.jp/blog/2018/12/php-news-6/}
-./articles/zch115-good-php-info.re: ** @<href>{https://www.infiniteloop.co.jp/blog/2018/11/php-news-5/}
-./articles/zch115-good-php-info.re: ** @<href>{https://www.infiniteloop.co.jp/blog/2018/10/php-news-4/}
-./articles/zch115-good-php-info.re: ** @<href>{http://tech.connehito.com/}
-./articles/zch115-good-php-info.re: ** @<href>{https://developers.gnavi.co.jp/}
-./articles/zch115-good-php-info.re: ** @<href>{https://engineer.blog.lancers.jp/}
-./articles/zch115-good-php-info.re: ** @<href>{https://devblog.thebase.in/}
-./articles/zch115-good-php-info.re: ** @<href>{https://techlog.voyagegroup.com/}
-./articles/zch115-good-php-info.re: ** @<href>{https://php-genba.shin1x1.com/}
+https://inside.pixiv.blog/tadsan/3991
+http://phpmentors.jp/post/77212948742/wdpress-php-11
+https://www.oreilly.com/web-platform/free/upgrading-to-php-seven.csp
+https://phpcon-sendai.net/
+https://phpcon.fukuoka.jp/
+https://twitter.com/phpcondo
+https://twitter.com/phpcon_kansai
+http://phpcon.php.gr.jp/
+https://www.youtube.com/user/PHPConferenceJP/
+https://www.youtube.com/channel/UCoDkBdCiMDLZebhXsBJlXUA/
+https://www.youtube.com/channel/UCjRTsAj3qtcvnTj6IriRwgg/
+https://phperkaigi.jp/
+https://phpstudy.doorkeeper.jp/
+https://yyphp.connpass.com/
+https://twitter.com/laraveljpcon
+https://cakefest.org/
+https://www.infiniteloop.co.jp/blog/2018/12/php-news-6/
+https://www.infiniteloop.co.jp/blog/2018/11/php-news-5/
+https://www.infiniteloop.co.jp/blog/2018/10/php-news-4/
+http://tech.connehito.com/
+https://developers.gnavi.co.jp/
+https://engineer.blog.lancers.jp/
+https://devblog.thebase.in/
+https://techlog.voyagegroup.com/
+https://php-genba.shin1x1.com/
 
 ● 16章
-./articles/zch116-hack-hhvm.re: ** @<href>{https://hhvm.com/}
-./articles/zch116-hack-hhvm.re: ** @<href>{http://blogs.itmedia.co.jp/hokaritomoya/2018/09/facebookhhvmphp.html}
-./articles/zch116-hack-hhvm.re: ** @<href>{https://news.mynavi.jp/article/20181220-742954/}
-./articles/zch116-hack-hhvm.re: ** @<href>{https://www.infiniteloop.co.jp/blog/2018/07/difference-between-php7-and-hhvm-hack/}
-./articles/zch116-hack-hhvm.re: **@<href>{http://docs.hhvm.com/hhvm/getting-started/getting-started}
-./articles/zch116-hack-hhvm.re: ** @<href>{https://crystal.connpass.com/}
-./articles/zch116-hack-hhvm.re: ** @<href>{https://github.com/mruby/mruby}
-./articles/zch116-hack-hhvm.re: ** @<href>{http://omake.accense.com/static/doc-ja/cython/src/quickstart/overview.html}
-./articles/zch116-hack-hhvm.re: ** @<href>{https://www.slideshare.net/yujiotani16/hackhhvm}
+https://hhvm.com/
+http://blogs.itmedia.co.jp/hokaritomoya/2018/09/facebookhhvmphp.html
+https://news.mynavi.jp/article/20181220-742954/
+https://www.infiniteloop.co.jp/blog/2018/07/difference-between-php7-and-hhvm-hack/
+http://docs.hhvm.com/hhvm/getting-started/getting-started
+https://crystal.connpass.com/
+https://github.com/mruby/mruby
+http://omake.accense.com/static/doc-ja/cython/src/quickstart/overview.html
+https://www.slideshare.net/yujiotani16/hackhhvm
 
 ● 付録A
-./articles/zch201-command-server.re:@<href>{http://php.net/manual/ja/features.commandline.webserver.php}
+http://php.net/manual/ja/features.commandline.webserver.php
 
 ● 付録B
-./articles/zch202-server-side.re: ** @<href>{https://hub.docker.com/_/php/}
-./articles/zch202-server-side.re: ** @<href>{http://php.net/manual/ja/install.fpm.php}
-./articles/zch202-server-side.re: ** @<href>{http://fuelphp.jp/docs/1.9/installation/instructions.html#/nginx}
-./articles/zch202-server-side.re: ** @<href>{https://linuc.org/textbooks/linux/}
-./articles/zch202-server-side.re: ** @<href>{https://linuc.org/textbooks/server/}
-./articles/zch202-server-side.re: ** @<href>{http://linuc.org/textbooks/security/}
-./articles/zch202-server-side.re: ** @<href>{http://oss-db.jp/ossdbtext/text.shtml}
+https://hub.docker.com/_/php/
+http://php.net/manual/ja/install.fpm.php
+http://fuelphp.jp/docs/1.9/installation/instructions.html#/nginx
+https://linuc.org/textbooks/linux/
+https://linuc.org/textbooks/server/
+http://linuc.org/textbooks/security/
+http://oss-db.jp/ossdbtext/text.shtml
 
 ● 付録C
-./articles/zch203-static-analyze.re: ** @<href>{http://www.atmarkit.co.jp/ait/articles/1809/11/news028.html}
-./articles/zch203-static-analyze.re: ** @<href>{https://www.jetbrains.com/phpstorm/}
-./articles/zch203-static-analyze.re: ** @<href>{https://github.com/ApiGen/ApiGen}
-./articles/zch203-static-analyze.re: ** @<href>{https://www.phpdoc.org/}
-./articles/zch203-static-analyze.re: ** @<href>{https://www.phpmetrics.org/}
-./articles/zch203-static-analyze.re: ** @<href>{ https://github.com/phan/phan}
-./articles/zch203-static-analyze.re: ** @<href>{https://devpixiv.hatenablog.com/entry/2016/11/11/202656}
-./articles/zch203-static-analyze.re: ** @<href>{https://github.com/phpstan/phpstan}
-./articles/zch203-static-analyze.re: ** @<href>{http://tech.connehito.com/entry/phan-or-phpstan}
-./articles/zch203-static-analyze.re: ** @<href>{https://github.com/squizlabs/PHP_CodeSniffer}
-./articles/zch203-static-analyze.re: ** @<href>{https://qiita.com/ukyooo/items/c1c7d12ec8e11f33139b}
-./articles/zch203-static-analyze.re: ** @<href>{https://github.com/phpmd/phpmd}
-./articles/zch203-static-analyze.re: ** @<href>{https://xdebug.org/}
-./articles/zch203-static-analyze.re: ** @<href>{https://phpunit.readthedocs.io/ja/latest/index.html}
-./articles/zch203-static-analyze.re: ** @<href>{https://www.elp.co.jp/staffblog/?p=5890}
-./articles/zch203-static-analyze.re: ** @<href>{https://github.com/atoum/atoum}
+http://www.atmarkit.co.jp/ait/articles/1809/11/news028.html
+https://www.jetbrains.com/phpstorm/
+https://github.com/ApiGen/ApiGen
+https://www.phpdoc.org/
+https://www.phpmetrics.org/
+https://github.com/phan/phan
+https://devpixiv.hatenablog.com/entry/2016/11/11/202656
+https://github.com/phpstan/phpstan
+http://tech.connehito.com/entry/phan-or-phpstan
+https://github.com/squizlabs/PHP_CodeSniffer
+https://qiita.com/ukyooo/items/c1c7d12ec8e11f33139b
+https://github.com/phpmd/phpmd
+https://xdebug.org/
+https://phpunit.readthedocs.io/ja/latest/index.html
+https://www.elp.co.jp/staffblog/?p=5890
+https://github.com/atoum/atoum
 
 ● 付録D
-./articles/zch204-security.re: ** @<href>{https://www.sbcr.jp/products/4797393163.html}
-./articles/zch204-security.re: ** @<href>{https://www.ipa.go.jp/security/vuln/websecurity.html}
-./articles/zch204-security.re: ** @<href>{https://www.shoeisha.co.jp/book/detail/9784798135472}
-./articles/zch204-security.re: ** @<href>{http://gihyo.jp/book/2010/978-4-7741-4437-5}
-./articles/zch204-security.re: ** @<href>{https://www.youtube.com/watch?v=EsAyzEeoWiQ}
+https://www.sbcr.jp/products/4797393163.html
+https://www.ipa.go.jp/security/vuln/websecurity.html
+https://www.shoeisha.co.jp/book/detail/9784798135472
+http://gihyo.jp/book/2010/978-4-7741-4437-5
+https://www.youtube.com/watch?v=EsAyzEeoWiQ
